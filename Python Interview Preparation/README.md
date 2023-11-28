@@ -23,8 +23,8 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 17. [Coding Challenges](#coding-challenges)
 18. [Web Development](#web-development)
 
-<!-- ## Basics-0 -->
-
+## Basics-0
+<details>
 ### What is Python, and how is it different from other programming languages?
 
 **Answer:** Python is a high-level, interpreted programming language known for its <ins>readability</ins> and <ins>simplicity</ins>. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. <ins>Python supports multiple programming paradigms, including procedural, object-oriented, and [functional programming](https://en.wikipedia.org/wiki/Functional_programming).</ins>
@@ -95,6 +95,7 @@ Welcome to my Python interview preparation repository! This space is dedicated t
       print(i)
   ```
 more examples in the file basics_0.py  
+</details>
 
 ## Basics-1
 
