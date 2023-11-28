@@ -33,41 +33,41 @@ Welcome to my Python interview preparation repository! This space is dedicated t
   name = "John"
   coordinates = (10.5, 20.0)
   ```
-  #### Operators
 
- ```python
-    # Example
-    result = 10 + 5  # Addition
-    is_equal = (3 == 3)  # Comparison
-    logical_result = True and False  # Logical AND
-```
+#### Operators
+
+- Utilizing operators for arithmetic, comparison, logical operations:
+  ```python
+  # Example
+  result = 10 + 5  # Addition
+  is_equal = (3 == 3)  # Comparison
+  logical_result = True and False  # Logical AND
+  ```
 
 #### Variables
 
 - Declaring and using variables to store values:
-
-```python
-    # Example
-    age = 25
-    message = f"My age is {age}."
-```
+  ```python
+  # Example
+  age = 25
+  message = f"My age is {age}."
+  ```
 
 #### Control Flow
 
 - Implementing control flow structures such as if statements, loops:
-
-    ```python
-    # Example
-    if age >= 18:
-        print("You are an adult.")
-    else:
-        print("You are a minor.")
-    
-    # Loop example
-    for i in range(5):
-        print(i)
+  ```python
+  # Example
+  if age >= 18:
+      print("You are an adult.")
+  else:
+      print("You are a minor.")
+  
+  # Loop example
+  for i in range(5):
+      print(i)
   ```
-
+    
 ## Data Structures
 - Lists, tuples, dictionaries, sets
 
