@@ -24,7 +24,7 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 18. [Web Development](#web-development)
 
 <details>
-<summary> ## Basics-0 </summary>
+<summary><strong> ## Basics-0 </strong></summary>
 
 ### What is Python, and how is it different from other programming languages?
 
