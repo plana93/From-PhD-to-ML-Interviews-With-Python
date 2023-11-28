@@ -24,11 +24,12 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 18. [Web Development](#web-development)
 
 <details>
-<summary><a href="#basics-0"><strong>## Basics-0 </strong></a></summary>
+<summary><strong> 0. </strong></summary>
+## Basics-0
 
 ### What is Python, and how is it different from other programming languages?
 
-**Answer:** Python is a high-level, interpreted programming language known for its <ins>readability</ins> and <ins>simplicity</ins>. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. <ins>Python supports multiple programming paradigms, including procedural, object-oriented, and [functional programming] (https://en.wikipedia.org/wiki/Functional_programming).</ins>
+**Answer:** Python is a high-level, interpreted programming language known for its <ins>readability</ins> and <ins>simplicity</ins>. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. <ins>Python supports multiple programming paradigms, including procedural, object-oriented, and [functional programming](https://en.wikipedia.org/wiki/Functional_programming).</ins>
 
 ### Explain the differences between Python 2 and Python 3.
 
