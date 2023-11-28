@@ -23,7 +23,8 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 17. [Coding Challenges](#coding-challenges)
 18. [Web Development](#web-development)
 
-## Basics-0
+<details>
+<summary> ## Basics-0 </summary>
 
 ### What is Python, and how is it different from other programming languages?
 
@@ -95,7 +96,7 @@ Welcome to my Python interview preparation repository! This space is dedicated t
       print(i)
   ```
 more examples in the file basics_0.py  
-
+</details>
 
 ## Basics-1
 
