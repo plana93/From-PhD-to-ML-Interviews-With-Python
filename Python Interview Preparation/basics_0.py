@@ -4,9 +4,11 @@
 ##### Understanding and working with various data types:
 
 # Example
-number = 23 # int
-name = "S.W.Erdnase" # str
-l_odd_numbers = [1,3,5,7,9] # list
+number = 23  # int
+name = "S.W.Erdnase"  # str
+l_odd_numbers = [1, 3, 5, 7, 9]  # list
+tuple_numbers = (1, 4)  # tuple
+dict_examples = {"A": 1, "B": 2}
 
 
 
