@@ -27,7 +27,7 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 
 ### What is Python, and how is it different from other programming languages?
 
-**Answer:** Python is a high-level, interpreted programming language known for its _readability_ and _simplicity_. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. Its design philosophy focuses on code readability, and its syntax allows programmers to express concepts in fewer lines of code than languages like C++ or Java. _Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming._
+**Answer:** Python is a high-level, interpreted programming language known for its <ins>readability</ins> and <ins>simplicity</ins>. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. Its design philosophy focuses on code readability, and its syntax allows programmers to express concepts in fewer lines of code than languages like C++ or Java. <ins>Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.</ins>
 
 ### Explain the differences between Python 2 and Python 3.
 
