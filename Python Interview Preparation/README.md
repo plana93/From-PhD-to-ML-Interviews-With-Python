@@ -68,7 +68,9 @@ Welcome to my Python interview preparation repository! This space is dedicated t
   for i in range(5):
       print(i)
   ```
-    
+more examples in the file basics_0.py  
+
+  
 ## Data Structures
 - Lists, tuples, dictionaries, sets
 
