@@ -27,7 +27,7 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 
 ### What is Python, and how is it different from other programming languages?
 
-**Answer:** Python is a high-level, interpreted programming language known for its readability and simplicity. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. Its design philosophy focuses on code readability, and its syntax allows programmers to express concepts in fewer lines of code than languages like C++ or Java. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
+**Answer:** Python is a high-level, interpreted programming language known for its _readability_ and _simplicity_. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. Its design philosophy focuses on code readability, and its syntax allows programmers to express concepts in fewer lines of code than languages like C++ or Java. _Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming._
 
 ### Explain the differences between Python 2 and Python 3.
 
@@ -44,12 +44,12 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 - **Extensive libraries:** Python has a rich standard library and numerous third-party libraries, facilitating diverse applications.
 - **Community support:** Python has a large, active community contributing to its development and providing support.
 
-#### Data Types
-Question: What are the different data types in Python?
 
-Answer:
-Python has various data types, including int (integer), str (string), float (floating-point), 
-tuple, list, dict (dictionary), and bool (boolean).
+### What are the different data types in Python?
+
+**Answer:** Python has various data types, including int (integer), str (string), float (floating-point), tuple, list, dict (dictionary), and bool (boolean).
+
+#### Data Types
 
 - Understanding and working with various data types:
   ```python
