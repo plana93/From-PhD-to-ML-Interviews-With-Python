@@ -3,7 +3,8 @@
 Welcome to my Python interview preparation repository! This space is dedicated to brushing up on various aspects of Python to excel in interviews.
 
 ## Table of Contents
-1. [Basics](#basics)
+0. [Basics-0](#basics-0)
+1. [Basics-1](#basics-1)
 2. [Data Structures](#data-structures)
 3. [Functions](#functions)
 4. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
@@ -22,7 +23,7 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 17. [Coding Challenges](#coding-challenges)
 18. [Web Development](#web-development)
 
-## Basics
+## Basics-0
 
 #### Data Types
 
