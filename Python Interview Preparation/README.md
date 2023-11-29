@@ -47,7 +47,11 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 - **Community support:** Python has a large, active community contributing to its development and providing support.
 
 
-<span style="color:red">### What are the different data types in Python?</span>
+<span style="color:red">
+
+### What are the different data types in Python?
+
+</span>
 
 **Answer:** Python has various data types, including int (integer), str (string), float (floating-point), tuple, list, dict (dictionary), and bool (boolean).
 
