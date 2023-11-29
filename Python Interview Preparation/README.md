@@ -5,23 +5,18 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 ## Table of Contents
 0. [Basics-0](#basics-0)
 1. [Basics-1](#basics-1)
-2. [Data Structures](#data-structures)
-3. [Functions](#functions)
-4. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
-5. [Exception Handling](#exception-handling)
-6. [File Handling](#file-handling)
-7. [Modules and Packages](#modules-and-packages)
-8. [List Comprehensions](#list-comprehensions)
-9. [Generators and Iterators](#generators-and-iterators)
-10. [Decorators](#decorators)
-11. [Concurrency](#concurrency)
-12. [Common Libraries and Frameworks](#common-libraries-and-frameworks)
-13. [Testing](#testing)
-14. [Databases](#databases)
-15. [Virtual Environments](#virtual-environments)
-16. [Time and Space Complexity](#time-and-space-complexity)
-17. [Coding Challenges](#coding-challenges)
-18. [Web Development](#web-development)
+2. [Functions](#functions)
+3. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
+4. [Exception Handling](#exception-handling)
+5. [File Handling](#file-handling)
+6. [Modules and Packages](#modules-and-packages)
+7. [List Comprehensions](#list-comprehensions)
+8. [Generators and Iterators](#generators-and-iterators)
+9. [Decorators](#decorators)
+10. [Concurrency](#concurrency)
+11. [Common Libraries and Frameworks](#common-libraries-and-frameworks)
+12. [Time and Space Complexity](#time-and-space-complexity)
+13. [Coding Challenges](#coding-challenges)
 
 ## Basics-0
 <details>
@@ -218,30 +213,6 @@ more examples in the file basics_0.py
 
 </details>
 
-## Testing
-<details>
-<summary><strong> Details </strong></summary>
-
-- Unit testing, pytest, test-driven development
-
-</details>
-
-## Databases
-<details>
-<summary><strong> Details </strong></summary>
-
-- Basic SQL queries, SQLite, SQLAlchemy
-
-</details>
-
-## Virtual Environments
-<details>
-<summary><strong> Details </strong></summary>
-
-- Using venv or virtualenv
-
-</details>
-
 ## Time and Space Complexity
 <details>
 <summary><strong> Details </strong></summary>
@@ -258,14 +229,7 @@ more examples in the file basics_0.py
 
 </details>
 
-## Web Development
-<details>
-<summary><strong> Details </strong></summary>
 
-- Basics of HTML, CSS, JavaScript (if relevant)
-- Flask or Django (if relevant)
-
-</details>
 
 
 Feel free to use this repository to track your progress and make updates as you continue your preparation. Happy coding!
