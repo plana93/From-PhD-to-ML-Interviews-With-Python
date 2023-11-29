@@ -41,17 +41,12 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 
 - **Readability:** Python's syntax is clear and readable, making it an excellent language for beginners.
 - **Versatility:** Python supports both procedural and object-oriented programming paradigms.
-- **Interpretation:** It is an interpreted language, which means code execution occurs line by line.
-- **Dynamic typing:** Variables are dynamically typed, allowing flexibility.
+- **Interpretation:** It is an <ins>interpreted language</ins>, which means code execution occurs line by line.
+- **Dynamic typing:** <insVariables are dynamically typed</ins, allowing flexibility.
 - **Extensive libraries:** Python has a rich standard library and numerous third-party libraries, facilitating diverse applications.
 - **Community support:** Python has a large, active community contributing to its development and providing support.
 
-
-<span style="color:red">
-
 ### What are the different data types in Python?
-
-</span>
 
 **Answer:** Python has various data types, including int (integer), str (string), float (floating-point), tuple, list, dict (dictionary), and bool (boolean).
 
