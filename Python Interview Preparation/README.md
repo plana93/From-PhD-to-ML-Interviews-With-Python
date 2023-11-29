@@ -50,7 +50,18 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 
 **Answer:** Python has various data types, including int (integer), str (string), float (floating-point), tuple, list, dict (dictionary), and bool (boolean).
 
+### What is the output of (10, 20, 30, 40, 50)[::-2]?
 
+**Answer:** (50, 30, 10). The notation [::-2] reverses the tuple and returns every second element. The [::-2] slice notation means to start from the end and move backwards by 2 steps. In this case, it starts from the end of the tuple and selects every second element moving towards the beginning.
+
+### Output of a=[[]]*5, a[0].append(1)?
+
+**Answer:** _a_ will be equal to [[1], [1], [1], [1], [1]]. When you multiply a list by a number, you get a list of references to the same elements. So, modifying one of them reflects on all.
+
+### What is the difference between == and is in Python?
+
+**Answer:** _==_ is a comparison operator that checks equality between the values of two objects.
+_is_ is an identity operator that checks whether two variables refer to the same object in memory.
 
 #### Data Types
 
@@ -97,6 +108,10 @@ Welcome to my Python interview preparation repository! This space is dedicated t
   for i in range(5):
       print(i)
   ```
+  
+
+
+
 more examples in the file basics_0.py  
 
 </details>
