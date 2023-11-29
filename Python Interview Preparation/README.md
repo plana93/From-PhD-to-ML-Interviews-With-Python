@@ -97,62 +97,152 @@ Welcome to my Python interview preparation repository! This space is dedicated t
       print(i)
   ```
 more examples in the file basics_0.py  
+
 </details>
 
 ## Basics-1
+<details>
+<summary><strong> Details </strong></summary>
 
+</details>
 
   
 ## Data Structures
+<details>
+<summary><strong> Details </strong></summary>
+
 - Lists, tuples, dictionaries, sets
 
+</details>
+
 ## Functions
+<details>
+<summary><strong> Details </strong></summary>
+
 - Defining functions, parameters, return values
 
+</details>
+
 ## Object-Oriented Programming (OOP)
+<details>
+<summary><strong> Details </strong></summary>
+
 - Classes, objects, inheritance, encapsulation
 
+</details>
+
 ## Exception Handling
+<details>
+<summary><strong> Details </strong></summary>
+
 - try, except, else, finally blocks
 
+</details>
+
 ## File Handling
+<details>
+<summary><strong> Details </strong></summary>
+
 - Reading and writing to files, context managers
 
+</details>
+
 ## Modules and Packages
+<details>
+<summary><strong> Details </strong></summary>
+
 - Importing modules, creating packages
 
+</details>
+
 ## List Comprehensions
+<details>
+<summary><strong> Details </strong></summary>
+
 - Creating concise lists
 
+</details>
+
 ## Generators and Iterators
+<details>
+<summary><strong> Details </strong></summary>
+
 - Yield statement, iterating through generators
 
+</details>
+
 ## Decorators
+<details>
+<summary><strong> Details </strong></summary>
+
 - Defining and using decorators
 
+</details>
+
 ## Concurrency
+<details>
+<summary><strong> Details </strong></summary>
+
 - Threading vs. multiprocessing, GIL
 
+</details>
+
 ## Common Libraries and Frameworks
+<details>
+<summary><strong> Details </strong></summary>
+
 - Requests, NumPy, Pandas, Flask/Django
 
+</details>
+
 ## Testing
+<details>
+<summary><strong> Details </strong></summary>
+
 - Unit testing, pytest, test-driven development
 
+</details>
+
 ## Databases
+<details>
+<summary><strong> Details </strong></summary>
+
 - Basic SQL queries, SQLite, SQLAlchemy
 
+</details>
+
 ## Virtual Environments
+<details>
+<summary><strong> Details </strong></summary>
+
 - Using venv or virtualenv
 
+</details>
+
 ## Time and Space Complexity
+<details>
+<summary><strong> Details </strong></summary>
+
 - Big O notation, algorithm efficiency
 
+</details>
+
 ## Coding Challenges
+<details>
+<summary><strong> Details </strong></summary>
+
 - Practice on platforms like LeetCode, HackerRank
 
+</details>
+
 ## Web Development
+<details>
+<summary><strong> Details </strong></summary>
+
 - Basics of HTML, CSS, JavaScript (if relevant)
 - Flask or Django (if relevant)
+
+</details>
+
 
 Feel free to use this repository to track your progress and make updates as you continue your preparation. Happy coding!
