@@ -43,3 +43,14 @@ end = 5
 step = 1
 for idx in range(start, end, step):
     print(idx)
+
+
+tuple_example = (0, 1, 2, 3, (4, 5, 6), 7, 8, 9)
+print(tuple_example[::3]) # 0 3 8
+print(tuple_example[::2]) # 0 2 (4, 5, 6) 8
+print(tuple_example[::-2]) # 9 7 3 1
+
+l_numbers = [[]] * 5
+print(l_numbers)
+l_numbers[0].append(1)
+print(l_numbers)

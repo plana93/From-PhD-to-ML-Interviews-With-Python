@@ -50,18 +50,25 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 
 **Answer:** Python has various data types, including int (integer), str (string), float (floating-point), tuple, list, dict (dictionary), and bool (boolean).
 
+### What is the output of (0, 1, 2, 3, (4, 5, 6), 7, 8, 9)[::2]
+
+**Answer:** (0, 2, (4, 5, 6), 8) Certainly, the annotation [::2] is a slicing notation in Python that allows extracting a subsequence from a sequence (such as a list or tuple) by specifying three parameters separated by colons. The general form is start:stop:step, where: 
+- start represents the starting index (inclusive).
+- stop represents the ending index (exclusive).
+- step represents the step or increment between selected elements.
+
 ### What is the output of (10, 20, 30, 40, 50)[::-2]?
 
 **Answer:** (50, 30, 10). The notation [::-2] reverses the tuple and returns every second element. The [::-2] slice notation means to start from the end and move backwards by 2 steps. In this case, it starts from the end of the tuple and selects every second element moving towards the beginning.
 
-### Output of a=[[]]*5, a[0].append(1)?
+### Output of l_numbers=[[]]*5, l_numbers[0].append(1)?
 
-**Answer:** _a_ will be equal to [[1], [1], [1], [1], [1]]. When you multiply a list by a number, you get a list of references to the same elements. So, modifying one of them reflects on all.
+**Answer:** _l_numbers_ will be equal to [[1], [1], [1], [1], [1]]. When you multiply a list by a number, you get a list of references to the same elements. So, modifying one of them reflects on all.
 
 ### What is the difference between == and is in Python?
 
-**Answer:** _==_ is a comparison operator that checks equality between the values of two objects.
-_is_ is an identity operator that checks whether two variables refer to the same object in memory.
+**Answer:** _==_ is a comparison operator that checks <ins>equality</ins> between the values of two objects.
+_is_ is an identity operator that checks whether two variables <ins>refer to the same object in memory</ins>.
 
 #### Data Types
 
