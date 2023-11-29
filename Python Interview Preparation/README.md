@@ -70,7 +70,8 @@ _is_ is an identity operator that checks whether two variables <ins>refer to the
 
 In Python, the single underscore (_) has several conventional uses, and its purpose can depend on the context in which it is used. Here are some common cases: 
 i) Placeholder for Unused Variables 
-ii) 
+ii) Last Expression in an Interactive Interpreter
+ii) "I don't care" in Unpacking ->  _, _, result = some_function_returning_a_tuple()
 
 
 #### Data Types
