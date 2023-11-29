@@ -68,10 +68,25 @@ _is_ is an identity operator that checks whether two variables <ins>refer to the
 
 ### What is the purpose of the single underscore “_” variable in Python?
 
-In Python, the single underscore (_) has several conventional uses, and its purpose can depend on the context in which it is used. Here are some common cases: 
+**Answer:** In Python, the single underscore (_) has several conventional uses, and its purpose can depend on the context in which it is used. Here are some common cases: 
 i) Placeholder for Unused Variables 
 ii) Last Expression in an Interactive Interpreter
 ii) "I don't care" in Unpacking ->  _, _, result = some_function_returning_a_tuple()
+
+### Explain the concept behind dictionary in Python
+
+**Answer:** In Python, a dictionary is a data structure that stores a collection of key-value pairs. Each key in a dictionary must be unique. You cannot have duplicate keys; if you try to use the same key more than once, the new value will overwrite the previous one.
+Keys must be of a type that is <ins>immutable</ins>, meaning they cannot be changed after creation (e.g. you cannot use a list as key). Common examples of immutable types for keys include strings, numbers, and tuples.
+Values in a dictionary can be of any data type, including numbers, strings, lists, or even other dictionaries (also mixed).
+<ins>Dictionaries are mutable.</ins> Dictionaries provide fast and efficient lookups. 
+
+### Difference between an expression and a statement in Python
+
+**Answer:**: A _statement_ is a complete line of code that performs an action. It's an executable unit that can include assignments, function calls, loops, conditionals, etc.
+An _expression_ is any part of the code that evaluates to a value. It can be a combination of variables, operators, and function calls. 
+An expression can also be a statement if it stands alone as a complete line of code. In some languages, expressions and statements are distinct, but in Python, many expressions can be used as statements.
+
+### Difference between an array and list
 
 
 #### Data Types
@@ -136,6 +151,17 @@ more examples in the file basics_0.py
 What is mutable and immutable objects/data types in Python?
 What is the difference between list and tuples in Python?
 How is memory managed in Python?
+Explain shallow and deep copy in Python
+Why Python generates a .pyc file even when it is an interpreted language?
+
+
+### How private varibles are declared in Python?
+
+**Answer:**: Python does not have anything called private member however by convention two underscore before a variable or function makes it private.
+
+### Can _set_ have lists as elements?
+
+**Answer:**: No, a set in Python cannot have lists as elements. Sets are designed to store unique and immutable elements. Since lists are mutable (meaning their contents can be changed after they are created), they cannot be used as elements in a set.
 
 
 </details>
@@ -143,6 +169,9 @@ How is memory managed in Python?
 ## Functions
 <details>
 <summary><strong> Details </strong></summary>
+
+Explain briefly about map() and lambda() functions. 
+Difference between a class variable and instance variable. (parte legata ai Scope)
 
 - Defining functions, parameters, return values
 
@@ -152,9 +181,14 @@ How is memory managed in Python?
 <details>
 <summary><strong> Details </strong></summary>
 
-What is MRO in Python? How does it work?
 What is monkey patching? How to use it in Python?
 What is the difference between staticmethod and classmethod?
+Explain Singleton class and its uses?
+Explain Meta Classes in Python. 
+Explain Abstract Classes and its uses.
+Explain object creation process in detail. Which method is called first?
+Explain inheritance in Python / What is MRO in Python? How does it work?
+
 
 - Classes, objects, inheritance, encapsulation
 
@@ -185,6 +219,8 @@ How would you load large data file in Python?
 <details>
 <summary><strong> Details </strong></summary>
 
+What's the difference between a Python module and a Python package?
+
 - Importing modules, creating packages
 
 </details>
@@ -192,6 +228,8 @@ How would you load large data file in Python?
 ## List Comprehensions
 <details>
 <summary><strong> Details </strong></summary>
+
+Which is faster, list comprehension or for loop?
 
 - Creating concise lists
 
@@ -203,6 +241,7 @@ How would you load large data file in Python?
 
 
 Explain Generators and use case of it.
+What is an iterator? How is iterator is different from a generator?
 
 - Yield statement, iterating through generators
 
@@ -222,6 +261,9 @@ How to make a chain of function decorators?
 ## Concurrency
 <details>
 <summary><strong> Details </strong></summary>
+
+What is a global interpreter lock (GIL)?
+Explain threading in Python
 
 - Threading vs. multiprocessing, GIL
 
