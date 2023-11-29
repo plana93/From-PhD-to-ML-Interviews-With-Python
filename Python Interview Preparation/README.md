@@ -65,6 +65,14 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 **Answer:** _==_ is a comparison operator that checks <ins>equality</ins> between the values of two objects.
 _is_ is an identity operator that checks whether two variables <ins>refer to the same object in memory</ins>.
 
+
+### What is the purpose of the single underscore “_” variable in Python?
+
+In Python, the single underscore (_) has several conventional uses, and its purpose can depend on the context in which it is used. Here are some common cases: 
+i) Placeholder for Unused Variables 
+ii) 
+
+
 #### Data Types
 
 - Understanding and working with various data types:
@@ -73,6 +81,8 @@ _is_ is an identity operator that checks whether two variables <ins>refer to the
   num = 42
   name = "John"
   coordinates = (10.5, 20.0)
+  
+  # Everything from numbers, lists, strings, functions and classes are python objects.
   ```
 
 #### Operators
@@ -122,14 +132,10 @@ more examples in the file basics_0.py
 <details>
 <summary><strong> Details </strong></summary>
 
-</details>
+What is mutable and immutable objects/data types in Python?
+What is the difference between list and tuples in Python?
+How is memory managed in Python?
 
-  
-## Data Structures
-<details>
-<summary><strong> Details </strong></summary>
-
-- Lists, tuples, dictionaries, sets
 
 </details>
 
@@ -145,6 +151,10 @@ more examples in the file basics_0.py
 <details>
 <summary><strong> Details </strong></summary>
 
+What is MRO in Python? How does it work?
+What is monkey patching? How to use it in Python?
+What is the difference between staticmethod and classmethod?
+
 - Classes, objects, inheritance, encapsulation
 
 </details>
@@ -153,6 +163,9 @@ more examples in the file basics_0.py
 <details>
 <summary><strong> Details </strong></summary>
 
+Explain exception handling in Python.
+Is there a sequence in defining exceptions in except block for exception handling?
+
 - try, except, else, finally blocks
 
 </details>
@@ -160,6 +173,8 @@ more examples in the file basics_0.py
 ## File Handling
 <details>
 <summary><strong> Details </strong></summary>
+
+How would you load large data file in Python?
 
 - Reading and writing to files, context managers
 
@@ -185,6 +200,9 @@ more examples in the file basics_0.py
 <details>
 <summary><strong> Details </strong></summary>
 
+
+Explain Generators and use case of it.
+
 - Yield statement, iterating through generators
 
 </details>
@@ -192,6 +210,9 @@ more examples in the file basics_0.py
 ## Decorators
 <details>
 <summary><strong> Details </strong></summary>
+
+Explain Closures in Python
+How to make a chain of function decorators?
 
 - Defining and using decorators
 

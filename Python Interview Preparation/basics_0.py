@@ -10,7 +10,7 @@ l_odd_numbers = [1, 3, 5, 7, 9]  # list
 tuple_numbers = (1, 4)  # tuple
 dict_examples = {"A": 1, "B": 2}
 
-
+# Everything from numbers, lists, strings, functions and classes are python objects.
 
 #### Operators
 #####  Utilizing operators for arithmetic, comparison, logical operations:
@@ -54,3 +54,4 @@ l_numbers = [[]] * 5
 print(l_numbers)
 l_numbers[0].append(1)
 print(l_numbers)
+
