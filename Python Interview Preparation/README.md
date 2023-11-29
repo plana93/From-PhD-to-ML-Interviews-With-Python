@@ -50,6 +50,8 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 
 **Answer:** Python has various data types, including int (integer), str (string), float (floating-point), tuple, list, dict (dictionary), and bool (boolean).
 
+
+
 #### Data Types
 
 - Understanding and working with various data types:
