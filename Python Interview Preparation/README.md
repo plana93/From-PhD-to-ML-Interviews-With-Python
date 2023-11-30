@@ -88,7 +88,6 @@ An expression can also be a statement if it stands alone as a complete line of c
 
 ### Difference between an array and list
 
-<font color="#3300FF"> Testo colorato </font>
 
 
 
