@@ -86,9 +86,12 @@ Values in a dictionary can be of any data type, including numbers, strings, list
 An _expression_ is any part of the code that evaluates to a value. It can be a combination of variables, operators, and function calls. 
 An expression can also be a statement if it stands alone as a complete line of code. In some languages, expressions and statements are distinct, but in Python, many expressions can be used as statements.
 
-<span style="color:blue;"> ### Difference between an array and list </span> 
+### Difference between an array and list
 
-<span style="color:blue;"> Testo blu </span>
+```bash
+echo -e "\e[34mTesto blu\e[0m"
+
+
 
 #### Data Types
 
