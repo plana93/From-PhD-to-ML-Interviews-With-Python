@@ -88,8 +88,7 @@ An expression can also be a statement if it stands alone as a complete line of c
 
 ### Difference between an array and list
 
-```bash
-echo -e "\e[34mTesto blu\e[0m"
+<font color="#3300FF"> Testo colorato </font>
 
 
 
