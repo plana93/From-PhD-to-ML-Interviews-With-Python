@@ -86,8 +86,13 @@ Values in a dictionary can be of any data type, including numbers, strings, list
 An _expression_ is any part of the code that evaluates to a value. It can be a combination of variables, operators, and function calls. 
 An expression can also be a statement if it stands alone as a complete line of code. In some languages, expressions and statements are distinct, but in Python, many expressions can be used as statements.
 
-### Difference between an array and list
+<span style="color:blue;"> 
 
+### Difference between an array and list 
+
+</span> 
+
+<span style="color:blue;">Testo blu</span>
 
 #### Data Types
 
@@ -154,8 +159,6 @@ more examples in the file basics_0.py
 When an object is created in Python, it is assigned a _type_ and an _id_. <ins> An object/data type is mutable if with the same id, the value of the object changes after the object is created. </ins>
 **Mutable objects** in Python -- Objects that can change after creation. Lists, byte arrays, sets, and dictionaries.
 **Immutable objects** in Python -- Numeric data types, strings, bytes, frozen sets, and tuples.
-
-
 
 
 ### What is the difference between list and tuples in Python?
