@@ -36,10 +36,7 @@ When not to use:
 ### Logistic Regression
 
 **Purpose**: Logistic regression is a statistical method used for <ins>binary classification</ins>.
-
-**Data Type**: Ideal for binary dependent variables (output) with continuous or categorical independent variables (input).
-
-**Objective**: Establishes the relationship between independent variables and the probability of the dependent variable being 1.
+Ideal for binary dependent variables (output) with continuous or categorical independent variables (input).
 
 **Model Function**: Uses a logistic function (sigmoid) to map input values, providing probabilities between 0 and 1.
 
@@ -51,6 +48,8 @@ When not to use:
 
 
 ### K-means Clustering
+
+
 
 ### K-nearest Neighbors
 
