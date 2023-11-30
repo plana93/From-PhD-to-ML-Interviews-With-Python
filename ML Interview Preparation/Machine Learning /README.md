@@ -11,16 +11,27 @@
 
 ### Linear Regression 
 
-Regression searches for relationships among variables. 
-Generally, in regression analysis, you consider some phenomenon of interest and have a number of observations. 
-Each observation has two or more features. 
-Following the assumption that at least one of the features depends on the others, you try to establish a relation among them.
+Linear regression is a machine learning algorithm that explores relationships between variables, particularly between the output (dependent variable) and one or more inputs (independent variables). 
+The fundamental equation is _y=mx+b_, where _y_ is the output, _x_ is the input, _m_ is the slope of the line, and _b_ is the bias.
 
-In other words, you need to find a function that maps some features or variables to others sufficiently well.
+The goal is to find a function that maps certain features or variables to others. 
+Regression answers questions about how one phenomenon influences another or how different variables are correlated. 
+It is also useful for making predictions with new data.
 
-Typically, you need regression to answer **whether and how some phenomenon influences the other** 
-or **how several variables are related**. 
-Regression is also useful when you want to **forecast** a response using a new set of predictors.
+To obtain the best predictive weights, the algorithm minimizes residual errors, which are the differences between predicted and actual responses. 
+This is achieved by reducing the sum of squared residuals (SSR) for all observations, known as the method of ordinary least squares.
+
+When to use:
+- easy simple to train and implement 
+- quick: can be done in one-shot or gradient descent 
+- handles linear data very well 
+
+When not to use: 
+- not linear relation (complex relation) 
+- noise  
+- outliers
+- prone to overfitting 
+- maybe need extra time for pre-processing or feature engineering 
 
 ### Logistic Regression
 
