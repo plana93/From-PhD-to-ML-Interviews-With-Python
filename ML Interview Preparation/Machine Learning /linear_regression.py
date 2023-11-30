@@ -52,21 +52,14 @@ class LinReg:
             lr=0.01,
             num_iter = 1000
             ):
-
-        # check len(X) == len(y)
-
-        # Add bias term to X -> [1 X]
         X = np.hstack([np.ones((len(X), 1)), X])
-
         self.W = np.zeros(X.shape[1])
 
         for iter_ in range(num_iter):
-            y_pred = np.dot(X, self.W) # da capire se usare np.dot
+            y_pred = np.dot(X, self.W)
             cost_function = np.sum((y_pred - y)**2)  +  self.regul * np.sum(self.W ** 2)
             gradient  = 2 * np.dot(X.T, (y_pred - y)) + 2*self.regul*self.W
-
             self.W = self.W - lr*gradient
-
 
     def predict(self, X):
         X = np.hstack([np.ones((len(X), 1)), X])
@@ -77,8 +70,6 @@ X = np.array([[1, 2, 3, 4, 5]]).T
 Y = np.array(y)
 lin_reg = LinReg(0.1)
 lin_reg.fit(X, y, lr=0.001, num_iter=10000)
-#print(lin_reg.W)  # Output: [ 1.99964292  0.65345474 ]
 y_pred = lin_reg.predict(X)
-#print(y_pred)
 
 print("Bias and Weight with GD", lin_reg.W)
