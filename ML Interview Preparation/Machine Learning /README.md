@@ -35,6 +35,21 @@ When not to use:
 
 ### Logistic Regression
 
+**Purpose**: Logistic regression is a statistical method used for <ins>binary classification</ins>.
+
+**Data Type**: Ideal for binary dependent variables (output) with continuous or categorical independent variables (input).
+
+**Objective**: Establishes the relationship between independent variables and the probability of the dependent variable being 1.
+
+**Model Function**: Uses a logistic function (sigmoid) to map input values, providing probabilities between 0 and 1.
+
+**Cost Function**: In logistic regression, the cost function is commonly expressed as the cross-entropy loss. For binary classification problems, the logistic loss or binary cross-entropy is used. 
+
+**Coefficient Estimation**: Model estimates coefficients via **maximum likelihood estimation** or **gradient descent**.
+
+**Prediction**: After training, predicts new data and classifies based on a user-defined threshold probability.
+
+
 ### K-means Clustering
 
 ### K-nearest Neighbors

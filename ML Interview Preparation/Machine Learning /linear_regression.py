@@ -45,6 +45,7 @@ class LinReg:
     def __init__(self, regul = 0 ):
         self.regul = regul
         self.W = None
+        self.B = None
 
     def fit(self,
             X,
@@ -52,24 +53,26 @@ class LinReg:
             lr=0.01,
             num_iter = 1000
             ):
-        X = np.hstack([np.ones((len(X), 1)), X])
-        self.W = np.zeros(X.shape[1])
+        self.W = np.zeros((X.shape[1], 1))
+        self.B = 0
 
         for iter_ in range(num_iter):
-            y_pred = np.dot(X, self.W)
+            y_pred = np.dot(X, self.W) + self.B
+            y_pred = y_pred.reshape(-1)
             cost_function = np.sum((y_pred - y)**2)  +  self.regul * np.sum(self.W ** 2)
-            gradient  = 2 * np.dot(X.T, (y_pred - y)) + 2*self.regul*self.W
-            self.W = self.W - lr*gradient
+            gradient_w  = (1 / len(X)) * 2 *  np.sum(np.dot(X.T, (y_pred - y))) + 2*self.regul*np.sum(self.W)
+            gradient_b  = (1 / len(X)) * 2 *  np.sum(y_pred - y)
+            self.W = self.W - lr*gradient_w
+            self.B = self.B - lr*gradient_b
 
     def predict(self, X):
-        X = np.hstack([np.ones((len(X), 1)), X])
-        y_pred = np.dot(X, self.W)
+        y_pred = np.dot(X, self.W) + self.B
         return y_pred
 
 X = np.array([[1, 2, 3, 4, 5]]).T
 Y = np.array(y)
 lin_reg = LinReg(0.1)
-lin_reg.fit(X, y, lr=0.001, num_iter=10000)
+lin_reg.fit(X, y, lr=0.01, num_iter=10000)
 y_pred = lin_reg.predict(X)
 
-print("Bias and Weight with GD", lin_reg.W)
+print("Bias and Weight with GD", [lin_reg.B, lin_reg.W[0][0]] )
