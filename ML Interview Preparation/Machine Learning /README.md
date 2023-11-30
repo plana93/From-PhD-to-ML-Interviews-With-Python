@@ -50,6 +50,18 @@ Ideal for binary dependent variables (output) with continuous or categorical ind
 ### K-means Clustering
 
 
+K-means clustering is a widely-used **unsupervised machine learning** algorithm designed to group data points with similarities into k clusters. 
+The objective is to partition a given dataset into a <ins>predetermined number of clusters.</ins>
+
+
+
+**Initialization**: Start by randomly placing k cluster centers in the feature space, with each center representing a cluster.
+**Assignment**: Associate each data point with the nearest cluster center based on a chosen distance metric. <ins>Euclidean distance</ins> is common, but alternatives like Manhattan distance or cosine similarity are viable.
+**Update**: Calculate the new mean for each cluster by averaging the data points within that cluster. These means become the updated cluster centers.
+**Iteration**: Repeat the assignment and mean calculation steps until the cluster assignments stabilize or until a specified number of iterations is reached.
+
+The outcome is a set of k clusters, where each cluster comprises data points that exhibit the most similarity according to the chosen distance metric.
+K-means finds applications in diverse domains such as image segmentation, market segmentation, and customer profiling.
 
 ### K-nearest Neighbors
 
