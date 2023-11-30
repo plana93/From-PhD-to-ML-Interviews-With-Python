@@ -54,5 +54,6 @@ l_numbers = [[]] * 5
 print(l_numbers)
 l_numbers[0].append(1)
 print(l_numbers)
-
+l_numbers[1][0] = 3
+print(l_numbers)
 

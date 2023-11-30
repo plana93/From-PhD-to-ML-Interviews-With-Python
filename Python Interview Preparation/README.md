@@ -37,7 +37,7 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 - **Readability:** Python's syntax is clear and readable, making it an excellent language for beginners.
 - **Versatility:** Python supports both procedural and object-oriented programming paradigms.
 - **Interpretation:** It is an <ins>interpreted language</ins>, which means code execution occurs line by line.
-- **Dynamic typing:** <insVariables are dynamically typed</ins, allowing flexibility.
+- **Dynamic typing:** <ins>Variables are dynamically typed</ins, allowing flexibility.
 - **Extensive libraries:** Python has a rich standard library and numerous third-party libraries, facilitating diverse applications.
 - **Community support:** Python has a large, active community contributing to its development and providing support.
 
@@ -148,12 +148,31 @@ more examples in the file basics_0.py
 <details>
 <summary><strong> Details </strong></summary>
 
-What is mutable and immutable objects/data types in Python?
-What is the difference between list and tuples in Python?
-How is memory managed in Python?
-Explain shallow and deep copy in Python
-Why Python generates a .pyc file even when it is an interpreted language?
+### What is mutable and immutable objects/data types in Python?
 
+**Answer:**: Mutation generally refers to 'change'. So when we say that an object is mutable or immutable we meant to say that the value of object can/cannot change.
+When an object is created in Python, it is assigned a _type_ and an _id_. <ins> An object/data type is mutable if with the same id, the value of the object changes after the object is created. </ins>
+**Mutable objects** in Python -- Objects that can change after creation. Lists, byte arrays, sets, and dictionaries.
+**Immutable objects** in Python -- Numeric data types, strings, bytes, frozen sets, and tuples.
+
+
+
+
+### What is the difference between list and tuples in Python?
+
+**Answer:**:
+
+### How is memory managed in Python?
+
+**Answer:**:
+
+### Explain shallow and deep copy in Python
+
+**Answer:**:
+
+### Why Python generates a .pyc file even when it is an interpreted language?
+
+**Answer:**:
 
 ### How private varibles are declared in Python?
 
@@ -161,7 +180,7 @@ Why Python generates a .pyc file even when it is an interpreted language?
 
 ### Can _set_ have lists as elements?
 
-**Answer:**: No, a set in Python cannot have lists as elements. Sets are designed to store unique and immutable elements. Since lists are mutable (meaning their contents can be changed after they are created), they cannot be used as elements in a set.
+**Answer:**: No, a set in Python cannot have lists as elements. Sets are designed <ins> to store unique and immutable elements. </ins> Since lists are mutable (meaning their contents can be changed after they are created), they cannot be used as elements in a set.
 
 
 </details>
