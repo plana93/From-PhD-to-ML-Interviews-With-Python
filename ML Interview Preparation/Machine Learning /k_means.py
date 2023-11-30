@@ -48,27 +48,18 @@ x1 = np.random.randn(5,2) + 5
 x2 = np.random.randn(5,2) - 5
 X = np.concatenate([x1,x2], axis=0)
 
-# Initialize the KMeans object with k=3
 kmeans = k_means(k_cluster=2)
-
-# Fit the k-means model to the dataset
 kmeans.fit(X)
-
-# Get the cluster assignments for the input dataset
 cluster_assignments = kmeans.predict(X)
 
 print(cluster_assignments)
 print(kmeans.centroids)
 
-# Plot the data points with different colors based on their cluster assignments
 colors = ['r', 'b']
 for i in range(kmeans.k_cluster):
     plt.scatter(X[np.where(np.array(cluster_assignments) == i)][:,0],
                 X[np.where(np.array(cluster_assignments) == i)][:,1],
                 color=colors[i])
 
-# Plot the centroids as black circles
 plt.scatter(kmeans.centroids[:,0], kmeans.centroids[:,1], color='black', marker='o')
-
-# Show the plot
 plt.show()
