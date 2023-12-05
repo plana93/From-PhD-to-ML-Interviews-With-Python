@@ -27,7 +27,7 @@
 
 Machine learning is a field of artificial intelligence that focuses on the development of algorithms that enable computers to learn patterns and make predictions from data.
 <p align="center">
-<img width="70" src="../img/ml_cover.jpeg">
+<img width="500" src="../img/ml_cover.jpeg">
 </p>
 
 ### ML Classic Concepts
