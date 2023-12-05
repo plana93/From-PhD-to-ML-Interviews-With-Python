@@ -172,13 +172,17 @@ It receives feedback in the form of rewards or penalties.
 
 **How:** It finds the hyperplane with the maximum margin by optimizing the weights using the following formula:
 
-\[ \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2 \]
+<p align="left">
+<img width="100" src="../img/optimization_formula_svm.png">
+</p>
 
 Subject to the constraints:
 
-\[ y_i(\mathbf{w} \cdot \mathbf{x}_i + b) \geq 1 \]
+<p align="left">
+<img width="100" src="../img/svm_formula.png">
+</p>
 
-where \(\mathbf{w}\) is the weight vector, \(b\) is the bias term, and \(\mathbf{x}_i\) is the data point.
+where **w** is the weight vector, **b** is the bias term, and **x_i** is the data point.
 
 
 **When to Use:** Effective for high-dimensional data.
@@ -230,3 +234,44 @@ where \(\mathbf{w}\) is the weight vector, \(b\) is the bias term, and \(\mathbf
 **Example:** Predicting click-through rates.
 
 **Connected Argument:** The learning rate and tree depth affect the trade-off between model complexity and accuracy.
+
+
+#### Perceptron
+
+**Description:** A perceptron is a simple binary classification algorithm capable of learning linear decision boundaries.
+
+**How:** The perceptron learns by adjusting the weights based on misclassifications using the perceptron learning rule.
+
+\[ \mathbf{w}_{\text{new}} = \mathbf{w}_{\text{old}} + \eta \cdot (\text{target} - \text{output}) \cdot \mathbf{x} \]
+
+where \(\mathbf{w}\) is the weight vector, \(\eta\) is the learning rate, and \(\mathbf{x}\) is the input vector.
+
+**When to Use:** Simple tasks with linearly separable data.
+
+**When Not to Use:** In the case of non-linear separability.
+
+**Pros and Cons:**
+- *Pros:* Fast convergence for linearly separable data.
+- *Cons:* Limited to linear decision boundaries.
+
+**Example:** Binary classification of flower species based on petal length and width.
+
+**Connected Argument:** The choice of activation function influences the learning capacity.
+
+#### Multi-Layer Perceptron (MLP)
+
+**Description:** MLP is a type of artificial neural network with multiple layers, including an input layer, one or more hidden layers, and an output layer.
+
+**How:** MLP learns by adjusting the weights using backpropagation and gradient descent.
+
+**When to Use:** Complex tasks requiring non-linear mappings.
+
+**When Not to Use:** Small datasets or tasks with limited complexity.
+
+**Pros and Cons:**
+- *Pros:* Suitable for complex tasks, can learn non-linear relationships.
+- *Cons:* Prone to overfitting, requires careful tuning.
+
+**Example:** Handwritten digit recognition.
+
+**Connected Argument:** The choice of activation functions in hidden layers and output layer affects the network's capacity to capture non-linear patterns.
