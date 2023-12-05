@@ -33,7 +33,7 @@ Machine learning is a field of artificial intelligence that focuses on the devel
 
 ### ML Classic Concepts
 
-#### Supervised Learning
+#### Supervised Learning :point_left:
 
 Supervised learning involves training a model on a labeled dataset, where each input is paired with the corresponding correct output. 
 Commonly used for classification and regression tasks.
@@ -188,7 +188,7 @@ K-means finds applications in diverse domains such as image segmentation, market
 
 **Example:** Predicting stock prices.
 
-#### Linear SVM
+#### Linear SVM 
 
 **Description:** SVM finds a hyperplane that best separates classes in a high-dimensional space.
 
