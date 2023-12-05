@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [Introduction to Machine Learning](#introduction-to-machine-learning)
 2. [ML Classic Concepts](#ml-classic-concepts)
-   1. [Supervised Learning :point_left:](#supervised-learning-:point_left:)
+   1. [Supervised Learning :point_left:](#supervised-learning)
    2. [Unsupervised Learning](#unsupervised-learning)
    3. [Reinforcement Learning](#reinforcement-learning)
 3. [Common Machine Learning Algorithms](#common-machine-learning-algorithms)
