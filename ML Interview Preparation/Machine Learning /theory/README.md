@@ -3,9 +3,9 @@
 
 ## Table of Contents
 1. [ML Classic Concepts](#ml-classic-concepts)
-   1.1 [Supervised Learning](#supervised-learning)
-   1.2 [Unsupervised Learning](#unsupervised-learning)
-   1.3 [Reinforcement Learning](#reinforcement-learning)
+   1. [Supervised Learning](#supervised-learning)
+   2. [Unsupervised Learning](#unsupervised-learning)
+   3. [Reinforcement Learning](#reinforcement-learning)
 2. [Linear Regression](#linear-regression)
 3. [Logistic Regression](#logistic-regression)
 4. [K-means Clustering](#k-means-clustering)
