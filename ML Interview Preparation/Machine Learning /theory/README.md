@@ -19,9 +19,9 @@
 
 ### ML Classic Concepts
 
-### Supervised Learning
-### Unsupervised Learning
-### Reinforcement Learning
+#### Supervised Learning
+#### Unsupervised Learning
+#### Reinforcement Learning
 
 
 ### Linear Regression 
