@@ -34,18 +34,18 @@ Machine learning is a field of artificial intelligence that focuses on the devel
 ### ML Classic Concepts
 
 #### Supervised Learning
-:writing_hand:
 
-Supervised learning involves training a model on a labeled dataset, where each input is paired with the corresponding correct output. 
+
+:writing_hand: Supervised learning involves training a model on a labeled dataset, where each input is paired with the corresponding correct output. 
 Commonly used for classification and regression tasks.
 
 #### Unsupervised Learning
 
-Unsupervised learning deals with unlabeled data, aiming to find patterns or structures within it. 
+:writing_hand: Unsupervised learning deals with unlabeled data, aiming to find patterns or structures within it. 
 Common techniques include clustering and dimensionality reduction.
 
 #### Reinforcement Learning
-Reinforcement learning involves an agent learning to make decisions by interacting with an environment. 
+ :writing_hand: Reinforcement learning involves an agent learning to make decisions by interacting with an environment. 
 It receives feedback in the form of rewards or penalties.
 
 
