@@ -34,7 +34,6 @@ Machine learning is a field of artificial intelligence that focuses on the devel
 ### ML Classic Concepts
 
 #### Supervised Learning
-
 :writing_hand:
 
 Supervised learning involves training a model on a labeled dataset, where each input is paired with the corresponding correct output. 
