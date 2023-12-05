@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [Introduction to Machine Learning](#introduction-to-machine-learning)
 2. [ML Classic Concepts](#ml-classic-concepts)
-   1. [Supervised Learning:point_left:](#supervised-learning:point_left:)
+   1. [Supervised Learning](#supervised-learning)
    2. [Unsupervised Learning](#unsupervised-learning)
    3. [Reinforcement Learning](#reinforcement-learning)
 3. [Common Machine Learning Algorithms](#common-machine-learning-algorithms)
@@ -33,7 +33,9 @@ Machine learning is a field of artificial intelligence that focuses on the devel
 
 ### ML Classic Concepts
 
-#### Supervised Learning:point_left:
+#### Supervised Learning
+
+:writing_hand:
 
 Supervised learning involves training a model on a labeled dataset, where each input is paired with the corresponding correct output. 
 Commonly used for classification and regression tasks.
