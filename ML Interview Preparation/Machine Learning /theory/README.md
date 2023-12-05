@@ -7,15 +7,28 @@
    1. [Supervised Learning](#supervised-learning)
    2. [Unsupervised Learning](#unsupervised-learning)
    3. [Reinforcement Learning](#reinforcement-learning)
-
-3. [Linear Regression](#linear-regression)
-4. [Logistic Regression](#logistic-regression)
-5. [K-means Clustering](#k-means-clustering)
-6. [K-nearest Neighbors](#k-nearest-neighbors)
-7. [Decision Trees](#decision-trees)
-8. [Linear SVM](#linear-smv)
+3. [Common Machine Learning Algorithms](#3-common-machine-learning-algorithms)
+   1. [Linear Regression](#linear-regression)
+   2. [Logistic Regression](#logistic-regression)
+   3. [K-means Clustering](#k-means-clustering)
+   4. [K-nearest Neighbors](#k-nearest-neighbors)
+   5. [Decision Trees](#decision-trees)
+   6. [Random Forest](#random-forest)
+   7. [Linear SVM](#linear-smv)
+   8. [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+   9. [Gradient Boosting](#gradient-boosting)
+4. [Deep Learning](#deep-learning)
+5. [Evaluation Metrics](#evaluation-metrics)
+   1. [Confusion Matrix](#confusion-matrix)
+   2. [Precision, Recall, F1 Score](#precision-recall-f1-score)
+   3. [ROC Curve](#roc-curve)
 
 ### Introduction to Machine Learning
+
+Machine learning is a field of artificial intelligence that focuses on the development of algorithms that enable computers to learn patterns and make predictions from data.
+<p align="center">
+<img width="70" src="ML Interview Preparation/Machine Learning /img/ml_cover.jpeg">
+</p>
 
 ### ML Classic Concepts
 
