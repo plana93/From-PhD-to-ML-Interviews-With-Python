@@ -179,7 +179,7 @@ It receives feedback in the form of rewards or penalties.
 Subject to the constraints:
 
 <p align="left">
-<img width="100" src="../img/svm_formula.png">
+<img width="100" src="../img/svm_formula.jpeg">
 </p>
 
 where **w** is the weight vector, **b** is the bias term, and **x_i** is the data point.
