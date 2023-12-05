@@ -1,7 +1,7 @@
 # Machine Learning Interview Preparation
 
 
-## Table of Contents
+# Table of Contents
 1. [Introduction to Machine Learning](#introduction-to-machine-learning)
 2. [ML Classic Concepts](#ml-classic-concepts)
    1. [Supervised Learning](#supervised-learning)
@@ -23,7 +23,7 @@
    2. [Precision, Recall, F1 Score](#precision-recall-f1-score)
    3. [ROC Curve](#roc-curve)
 
-### Introduction to Machine Learning
+## Introduction to Machine Learning
 
 Machine learning is a field of artificial intelligence that focuses on the development of algorithms that enable computers to learn patterns and make predictions from data.
 
@@ -31,27 +31,27 @@ Machine learning is a field of artificial intelligence that focuses on the devel
 <img width="300" src="../img/ml_cover.jpeg">
 </p>
 
-### ML Classic Concepts
+## ML Classic Concepts
 
-#### Supervised Learning
+### Supervised Learning
 
 
 :writing_hand: Supervised learning involves training a model on a labeled dataset, where each input is paired with the corresponding correct output. 
 Commonly used for classification and regression tasks.
 
-#### Unsupervised Learning
+### Unsupervised Learning
 
 :writing_hand: Unsupervised learning deals with unlabeled data, aiming to find patterns or structures within it. 
 Common techniques include clustering and dimensionality reduction.
 
-#### Reinforcement Learning
+### Reinforcement Learning
  :writing_hand: Reinforcement learning involves an agent learning to make decisions by interacting with an environment. 
 It receives feedback in the form of rewards or penalties.
 
 
-### Common Machine Learning Algorithms
+## Common Machine Learning Algorithms
 
-#### Linear Regression 
+### Linear Regression 
 
 **Description:** Linear regression models the relationship between a dependent variable (output) and one or more independent variables (input) by fitting a linear equation (_y=mx+b_) to the observed data.
 
@@ -70,7 +70,7 @@ It receives feedback in the form of rewards or penalties.
 **Connected Argument:** Feature engineering to capture non-linear relationships.
 
 
-#### Logistic Regression
+### Logistic Regression
 
 **Description:** Logistic regression is used for binary classification problems, predicting the probability that an instance belongs to a particular class.
 
@@ -89,7 +89,7 @@ It receives feedback in the form of rewards or penalties.
 **Connected Argument:** Regularization techniques for preventing overfitting.
 
 
-#### K-means Clustering
+### K-means Clustering
 
 **Description:** K-Means is a widely-used **unsupervised machine learning** to group data into _k_ clusters based on similarity.
 
@@ -108,7 +108,7 @@ It receives feedback in the form of rewards or penalties.
 **Connected Argument:** Distance metrics: Euclidean, Manhattan, cosine (the choice of distance metric impacts the clusters formed).
 
 
-#### K-nearest Neighbors (KNN)
+### K-nearest Neighbors (KNN)
 
 **Description:** KNN classifies new data points based on the majority class of their _k_ nearest neighbors.
 
@@ -127,7 +127,7 @@ It receives feedback in the form of rewards or penalties.
 **Connected Argument:** Distance metrics: Euclidean, Manhattan, cosine (the choice of distance metric and the value of _k_ impact classification results).
 
 
-#### Decision Trees
+### Decision Trees
 
 **Description:** Decision trees are hierarchical structures that make decisions based on the values of input features.
 
@@ -145,7 +145,7 @@ It receives feedback in the form of rewards or penalties.
 
 **Connected Argument:** Pruning (to control the tree depth and prevent overfitting).
 
-#### Random Forest 
+### Random Forest 
 
 **Description:** Random Forest is an ensemble method that builds multiple decision trees and merges their predictions.
 
@@ -164,7 +164,7 @@ It receives feedback in the form of rewards or penalties.
 **Connected Argument:** Tuning the number of trees and feature selection impact performance.
 
 
-#### Linear SVM 
+### Linear SVM 
 
 **Description:** SVM finds a hyperplane that best separates classes in a high-dimensional space.
 
@@ -205,7 +205,7 @@ where **w** is the weight vector, **b** is the bias term, and **x_i** is the dat
 **Connected Argument:** The kernel trick for handling non-linear relationships.
 
 
-#### Principal Component Analysis (PCA)
+### Principal Component Analysis (PCA)
 
 **Description:** PCA reduces the dimensionality of data by transforming it into a new coordinate system.
 
@@ -224,7 +224,7 @@ where **w** is the weight vector, **b** is the bias term, and **x_i** is the dat
 **Connected Argument:** The number of components impacts the trade-off between dimensionality reduction and information loss.
 
 
-#### Gradient Boosting
+### Gradient Boosting
 **Description:** Gradient Boosting builds an ensemble of weak learners and improves upon their predictions.
 
 **How:** It fits a series of weak learners, each correcting the errors of the previous one.
@@ -243,7 +243,7 @@ where **w** is the weight vector, **b** is the bias term, and **x_i** is the dat
 **Connected Argument:** The learning rate and tree depth affect the trade-off between model complexity and accuracy.
 
 
-#### Perceptron
+### Perceptron
 
 **Description:** A perceptron is a simple binary classification algorithm capable of learning linear decision boundaries.
 
@@ -265,7 +265,7 @@ where \(\mathbf{w}\) is the weight vector, \(\eta\) is the learning rate, and \(
 
 **Connected Argument:** The choice of activation function influences the learning capacity.
 
-#### Multi-Layer Perceptron (MLP)
+### Multi-Layer Perceptron (MLP)
 
 **Description:** MLP is a type of artificial neural network with multiple layers, including an input layer, one or more hidden layers, and an output layer.
 
