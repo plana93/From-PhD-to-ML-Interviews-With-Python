@@ -168,7 +168,6 @@ It receives feedback in the form of rewards or penalties.
 
 **Description:** SVM finds a hyperplane that best separates classes in a high-dimensional space.
 
-**How:** It finds the hyperplane with the maximum margin, optimizing the weights.
 
 **How:** It finds the hyperplane with the maximum margin by optimizing the weights using the following formula:
 
@@ -202,14 +201,14 @@ where **w** is the weight vector, **b** is the bias term, and **x_i** is the dat
 
 **Example:** Image classification.
 
-**Connected Argument:** The kernel trick for handling non-linear relationships.
+**Connected Argument:** The kernel trick for handling non-linear relationships. Hinge loss (the hinge loss is used for "maximum-margin" classification).
 
 
 ### Principal Component Analysis (PCA)
 
 **Description:** PCA reduces the dimensionality of data by transforming it into a new coordinate system.
 
-**How:** It identifies the _eigenvectors_ and _eigenvalues_ of the covariance matrix.
+**How:** Standardize the data -> Compute the covariance matrix -> calculating **eigenvectors** and **eigenvalues** of the covariance matrix -> Sort eigenvectors in decreasing order based on their eigenvalues -> Select the top K eigenvectors -> Transform the data into the new K-dimensional space using the dot product 
 
 **When to Use:** Reducing dimensionality and noise.
 
@@ -221,7 +220,8 @@ where **w** is the weight vector, **b** is the bias term, and **x_i** is the dat
 
 **Example:** Facial recognition.
 
-**Connected Argument:** The number of components impacts the trade-off between dimensionality reduction and information loss.
+**Connected Argument:** 1. The number of components impacts the trade-off between dimensionality reduction and information loss.  Covariance Matrix. Eigenvector: point in the direction of the maximum variance and the corresponding eigenvalues indicates the importance of its corresponding eigenvector
+
 
 
 ### Gradient Boosting
@@ -282,3 +282,49 @@ where \(\mathbf{w}\) is the weight vector, \(\eta\) is the learning rate, and \(
 **Example:** Handwritten digit recognition.
 
 **Connected Argument:** The choice of activation functions in hidden layers and output layer affects the network's capacity to capture non-linear patterns.
+
+
+## Evaluation Metrics
+
+### Confusion Matrix
+
+A confusion matrix is a table that describes the performance of a classification model. It shows the number of true positives, true negatives, false positives, and false negatives.
+
+**How to Use:**
+- Calculate metrics like accuracy, precision, recall, and F1 score.
+
+**Connected Argument:**
+- Threshold tuning for classification models.
+
+### Precision, Recall, F1 Score
+
+These metrics provide more detailed insights into the performance of a classification model.
+
+**Precision:**
+Precision = True Positives / (True Positives + False Positives)
+
+**Recall (Sensitivity or True Positive Rate):**
+Recall =  True Positives / (True Positives + False Negatives)
+
+**F1 Score (Harmonic Mean of Precision and Recall):**
+ F1 Score = 2 * (Precision *  Recall)  / (Precision + Recall) 
+
+**How to Use:**
+- Precision: Focus on minimizing false positives.
+- Recall: Focus on minimizing false negatives.
+- F1 Score: Balance between precision and recall.
+
+**Connected Argument:**
+- The choice of threshold in a classification model affects precision and recall.
+
+### ROC Curve
+
+The Receiver Operating Characteristic (ROC) curve is a graphical representation of the trade-off between **true positive rate (sensitivity)** and **false positive rate (1-specificity)** at various thresholds.
+
+**How to Use:**
+- Assess the model's ability to discriminate between positive and negative classes.
+
+**Connected Argument:**
+- Area Under the ROC Curve (AUC-ROC) is a summary metric for the entire curve.
+
+---
