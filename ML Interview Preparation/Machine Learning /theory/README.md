@@ -62,6 +62,7 @@ It receives feedback in the form of rewards or penalties.
 - *Cons:* Assumes a linear relationship.
 
 **Example:** Predicting house prices based on square footage.
+
 ---
 
 
