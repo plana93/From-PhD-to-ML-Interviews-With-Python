@@ -25,9 +25,9 @@
 
 ### Introduction to Machine Learning
 
-Machine learning is a field of artificial intelligence that focuses on the development of algorithms that enable computers to learn patterns and make predictions from data.
 <p align="left">
-<img width="300" src="../img/ml_cover.jpeg">
+<img width="300" src="../img/ml_cover.jpeg" Machine learning is a field of artificial intelligence that focuses on the development of algorithms that enable computers to learn patterns and make predictions from data.
+>
 </p>
 
 ### ML Classic Concepts
