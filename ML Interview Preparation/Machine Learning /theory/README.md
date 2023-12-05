@@ -181,7 +181,7 @@ It receives feedback in the form of rewards or penalties.
     Subject to the constraints:
   </p>
   <p align="right" style="width: 30%;">
-    <img width="100" src="../img/svm_formula.jpeg" alt="Descrizione della formula del SVM">
+    <img width="1" src="../img/svm_formula.jpeg" alt="Descrizione della formula del SVM">
   </p>
 </div>
 
