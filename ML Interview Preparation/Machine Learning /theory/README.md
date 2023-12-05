@@ -53,46 +53,28 @@ It receives feedback in the form of rewards or penalties.
 
 #### Linear Regression 
 
-**Description:** Linear regression models the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the observed data.
+**Description:** Linear regression models the relationship between a dependent variable (output) and one or more independent variables (input) by fitting a linear equation (_y=mx+b_) to the observed data.
+
+**How:** The solution is found by minimizing the sum of squared residuals (SSR) using methods like ordinary least squares.
 
 **When to Use:** Suitable for predicting a continuous outcome.
 
-**When Not to Use:** In cases where the relationship between variables is nonlinear.
+**When Not to Use:** In cases where the relationship between variables is nonlinear, noise data, outliers. It prones to overfitting. Sometimes need extra time for pre-processing or feature engineering. 
 
 **Pros and Cons:**
-- *Pros:* Simple, interpretable.
+- *Pros:* Simple, interpretable, handles linear data very well.
 - *Cons:* Assumes a linear relationship.
 
 **Example:** Predicting house prices based on square footage.
 
----
+**Connected Argument:** Feature engineering to capture non-linear relationships.
 
-
-Linear regression is a machine learning algorithm that explores relationships between variables, particularly between the output (dependent variable) and one or more inputs (independent variables). 
-The fundamental equation is _y=mx+b_, where _y_ is the output, _x_ is the input, _m_ is the slope of the line, and _b_ is the bias.
-
-The goal is to find a function that maps certain features or variables to others. 
-Regression answers questions about how one phenomenon influences another or how different variables are correlated. 
-It is also useful for making predictions with new data.
-
-To obtain the best predictive weights, the algorithm minimizes residual errors, which are the differences between predicted and actual responses. 
-This is achieved by reducing the sum of squared residuals (SSR) for all observations, known as the method of ordinary least squares.
-
-When to use:
-- easy simple to train and implement 
-- quick: can be done in one-shot or gradient descent 
-- handles linear data very well 
-
-When not to use: 
-- not linear relation (complex relation) 
-- noise  
-- outliers
-- prone to overfitting 
-- maybe need extra time for pre-processing or feature engineering 
 
 #### Logistic Regression
 
 **Description:** Logistic regression is used for binary classification problems, predicting the probability that an instance belongs to a particular class.
+
+**How:** It uses a logistic function (sigmoid) to map input values, providing probabilities between 0 and 1. The logistic loss or binary cross-entropy are used. Model estimates coefficients via **maximum likelihood estimation** or **gradient descent**.
 
 **When to Use:** Binary classification problems.
 
@@ -104,23 +86,14 @@ When not to use:
 
 **Example:** Predicting whether an email is spam or not.
 
----
-
-**Purpose**: Logistic regression is a statistical method used for <ins>binary classification</ins>.
-Ideal for binary dependent variables (output) with continuous or categorical independent variables (input).
-
-**Model Function**: Uses a logistic function (sigmoid) to map input values, providing probabilities between 0 and 1.
-
-**Cost Function**: In logistic regression, the cost function is commonly expressed as the cross-entropy loss. For binary classification problems, the logistic loss or binary cross-entropy is used. 
-
-**Coefficient Estimation**: Model estimates coefficients via **maximum likelihood estimation** or **gradient descent**.
-
-**Prediction**: After training, predicts new data and classifies based on a user-defined threshold probability.
+**Connected Argument:** Regularization techniques for preventing overfitting.
 
 
 #### K-means Clustering
 
-**Description:** K-Means partitions data into k clusters based on similarity.
+**Description:** K-Means is a widely-used **unsupervised machine learning** to group data into _k_ clusters based on similarity.
+
+**How:** It iteratively assigns data points to the nearest cluster center, updates the center by computing the mean of the assigned points, and repeats until convergence.
 
 **When to Use:** Identifying natural groupings in data.
 
@@ -132,24 +105,14 @@ Ideal for binary dependent variables (output) with continuous or categorical ind
 
 **Example:** Customer segmentation.
 
----
+**Connected Argument:** Distance metrics: Euclidean, Manhattan, cosine (the choice of distance metric impacts the clusters formed).
 
-K-means clustering is a widely-used **unsupervised machine learning** algorithm designed to group data points with similarities into k clusters. 
-The objective is to partition a given dataset into a <ins>predetermined number of clusters.</ins>
-
-
-
-**Initialization**: Start by randomly placing k cluster centers in the feature space, with each center representing a cluster.
-**Assignment**: Associate each data point with the nearest cluster center based on a chosen distance metric. <ins>Euclidean distance</ins> is common, but alternatives like Manhattan distance or cosine similarity are viable.
-**Update**: Calculate the new mean for each cluster by averaging the data points within that cluster. These means become the updated cluster centers.
-**Iteration**: Repeat the assignment and mean calculation steps until the cluster assignments stabilize or until a specified number of iterations is reached.
-
-The outcome is a set of k clusters, where each cluster comprises data points that exhibit the most similarity according to the chosen distance metric.
-K-means finds applications in diverse domains such as image segmentation, market segmentation, and customer profiling.
 
 #### K-nearest Neighbors (KNN)
 
-**Description:** KNN classifies new data points based on the majority class of their k nearest neighbors.
+**Description:** KNN classifies new data points based on the majority class of their _k_ nearest neighbors.
+
+**How:** It classifies a new data point by identifying its _k_ nearest neighbors and selecting the majority class.
 
 **When to Use:** Simple and effective for small datasets.
 
@@ -161,9 +124,14 @@ K-means finds applications in diverse domains such as image segmentation, market
 
 **Example:** Handwritten digit recognition.
 
+**Connected Argument:** Distance metrics: Euclidean, Manhattan, cosine (the choice of distance metric and the value of _k_ impact classification results).
+
+
 #### Decision Trees
 
 **Description:** Decision trees are hierarchical structures that make decisions based on the values of input features.
+
+**How:** It recursively splits the data based on the features that maximize information gain or Gini impurity.
 
 **When to Use:** Versatile for both classification and regression tasks.
 
@@ -175,9 +143,13 @@ K-means finds applications in diverse domains such as image segmentation, market
 
 **Example:** Predicting whether a customer will buy a product.
 
+**Connected Argument:** Pruning (to control the tree depth and prevent overfitting).
+
 #### Random Forest 
 
 **Description:** Random Forest is an ensemble method that builds multiple decision trees and merges their predictions.
+
+**How:** It builds multiple decision trees on different subsets of the data and combines their predictions.
 
 **When to Use:** Robust for various tasks, reduces overfitting.
 
@@ -189,9 +161,25 @@ K-means finds applications in diverse domains such as image segmentation, market
 
 **Example:** Predicting stock prices.
 
+**Connected Argument:** Tuning the number of trees and feature selection impact performance.
+
+
 #### Linear SVM 
 
 **Description:** SVM finds a hyperplane that best separates classes in a high-dimensional space.
+
+**How:** It finds the hyperplane with the maximum margin, optimizing the weights.
+
+**How:** It finds the hyperplane with the maximum margin by optimizing the weights using the following formula:
+
+\[ \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2 \]
+
+Subject to the constraints:
+
+\[ y_i(\mathbf{w} \cdot \mathbf{x}_i + b) \geq 1 \]
+
+where \(\mathbf{w}\) is the weight vector, \(b\) is the bias term, and \(\mathbf{x}_i\) is the data point.
+
 
 **When to Use:** Effective for high-dimensional data.
 
@@ -203,9 +191,14 @@ K-means finds applications in diverse domains such as image segmentation, market
 
 **Example:** Image classification.
 
+**Connected Argument:** The kernel trick for handling non-linear relationships.
+
+
 #### Principal Component Analysis (PCA)
 
 **Description:** PCA reduces the dimensionality of data by transforming it into a new coordinate system.
+
+**How:** It identifies the _eigenvectors_ and _eigenvalues_ of the covariance matrix.
 
 **When to Use:** Reducing dimensionality and noise.
 
@@ -217,8 +210,14 @@ K-means finds applications in diverse domains such as image segmentation, market
 
 **Example:** Facial recognition.
 
+**Connected Argument:** The number of components impacts the trade-off between dimensionality reduction and information loss.
+
+
 #### Gradient Boosting
 **Description:** Gradient Boosting builds an ensemble of weak learners and improves upon their predictions.
+
+**How:** It fits a series of weak learners, each correcting the errors of the previous one.
+
 
 **When to Use:** Effective for improving model performance.
 
@@ -229,3 +228,5 @@ K-means finds applications in diverse domains such as image segmentation, market
 - *Cons:* Prone to overfitting.
 
 **Example:** Predicting click-through rates.
+
+**Connected Argument:** The learning rate and tree depth affect the trade-off between model complexity and accuracy.
