@@ -172,9 +172,13 @@ It receives feedback in the form of rewards or penalties.
 
 **How:** It finds the hyperplane with the maximum margin by optimizing the weights using the following formula:
 
-<p align="left">
-<img width="100" src="../img/optimization_formula_svm.png">
-</p>
+<div>
+  <p align="left" style="width: 70%;">
+  </p>
+  <p align="left" style="width: 30%;">
+    <img width="150" src="../img/optimization_formula_svm.jpeg" alt="Descrizione della formula del SVM">
+  </p>
+</div>
 
 <div>
   <p align="left" style="width: 70%;">
