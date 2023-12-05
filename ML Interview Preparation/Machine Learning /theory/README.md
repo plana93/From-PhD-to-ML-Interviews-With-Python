@@ -2,12 +2,12 @@
 
 
 ## Table of Contents
-1. [Introduction to Machine Learning](#1-introduction-to-machine-learning)
+1. [Introduction to Machine Learning](#introduction-to-machine-learning)
 2. [ML Classic Concepts](#ml-classic-concepts)
    1. [Supervised Learning](#supervised-learning)
    2. [Unsupervised Learning](#unsupervised-learning)
    3. [Reinforcement Learning](#reinforcement-learning)
-3. [Common Machine Learning Algorithms](#3-common-machine-learning-algorithms)
+3. [Common Machine Learning Algorithms](#common-machine-learning-algorithms)
    1. [Linear Regression](#linear-regression)
    2. [Logistic Regression](#logistic-regression)
    3. [K-means Clustering](#k-means-clustering)
@@ -26,6 +26,7 @@
 ### Introduction to Machine Learning
 
 Machine learning is a field of artificial intelligence that focuses on the development of algorithms that enable computers to learn patterns and make predictions from data.
+
 <p align="left">
 <img width="300" src="../img/ml_cover.jpeg">
 </p>
