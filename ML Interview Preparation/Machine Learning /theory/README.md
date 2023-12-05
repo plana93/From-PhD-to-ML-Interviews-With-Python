@@ -176,11 +176,14 @@ It receives feedback in the form of rewards or penalties.
 <img width="100" src="../img/optimization_formula_svm.png">
 </p>
 
-Subject to the constraints:
-
-<p align="left">
-<img width="100" src="../img/svm_formula.jpeg">
-</p>
+<div>
+  <p align="left" style="width: 70%;">
+    Subject to the constraints:
+  </p>
+  <p align="right" style="width: 30%;">
+    <img width="100" src="../img/svm_formula.jpeg" alt="Descrizione della formula del SVM">
+  </p>
+</div>
 
 where **w** is the weight vector, **b** is the bias term, and **x_i** is the data point.
 
