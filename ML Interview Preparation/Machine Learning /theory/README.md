@@ -2,19 +2,26 @@
 
 
 ## Table of Contents
-1. [ML Classic Concepts](#ml-classic-concepts)
+1. [Introduction to Machine Learning](#1-introduction-to-machine-learning)
+2. [ML Classic Concepts](#ml-classic-concepts)
    1. [Supervised Learning](#supervised-learning)
    2. [Unsupervised Learning](#unsupervised-learning)
    3. [Reinforcement Learning](#reinforcement-learning)
-2. [Linear Regression](#linear-regression)
-3. [Logistic Regression](#logistic-regression)
-4. [K-means Clustering](#k-means-clustering)
-5. [K-nearest Neighbors](#k-nearest-neighbors)
-6. [Decision Trees](#decision-trees)
-7. [Linear SVM](#linear-smv)
 
-### ML Classic Concepts 
+3. [Linear Regression](#linear-regression)
+4. [Logistic Regression](#logistic-regression)
+5. [K-means Clustering](#k-means-clustering)
+6. [K-nearest Neighbors](#k-nearest-neighbors)
+7. [Decision Trees](#decision-trees)
+8. [Linear SVM](#linear-smv)
 
+### Introduction to Machine Learning
+
+### ML Classic Concepts
+
+### Supervised Learning
+### Unsupervised Learning
+### Reinforcement Learning
 
 
 ### Linear Regression 
