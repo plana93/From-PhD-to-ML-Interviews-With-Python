@@ -101,6 +101,7 @@ When not to use:
 - *Cons:* Assumes a linear relationship.
 
 **Example:** Predicting whether an email is spam or not.
+
 ---
 
 **Purpose**: Logistic regression is a statistical method used for <ins>binary classification</ins>.
