@@ -48,6 +48,42 @@ Common techniques include clustering and dimensionality reduction.
  :writing_hand: Reinforcement learning involves an agent learning to make decisions by interacting with an environment. 
 It receives feedback in the form of rewards or penalties.
 
+### Parametric vs Nonparametric 
+
+**Parametric**: Assumptions can greatly simplify the learning process, but can also limit what can be learned. 
+A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a parametric model. 
+
+**Nonparametric**: Algorithms that do not make strong assumptions about the form of the mapping function are called nonparametric machine learning algorithms. 
+By not making assumptions, they are free to learn any functional form from the training data.
+
+
+**examples Parametric**: Logistic Regression, Perceptron
+**examples Nonparametric**: k-Nearest Neighbors
+
+Benefits of **Parametric** Machine Learning Algorithms:
+
+Simpler: These methods are easier to understand and interpret results.
+Speed: Parametric models are very fast to learn from data.
+Less Data: They do not require as much training data and can work well even if the fit to the data is not perfect.
+
+Limitations of **Parametric** Machine Learning Algorithms:
+
+Constrained: By choosing a functional form these methods are highly constrained to the specified form.
+Limited Complexity: The methods are more suited to simpler problems.
+Poor Fit: In practice the methods are unlikely to match the underlying mapping function.
+
+Benefits of **Nonparametric** Machine Learning Algorithms:
+
+Flexibility: Capable of fitting a large number of functional forms.
+Power: No assumptions (or weak assumptions) about the underlying function.
+Performance: Can result in higher performance models for prediction.
+
+Limitations of **Nonparametric** Machine Learning Algorithms:
+
+More data: Require a lot more training data to estimate the mapping function.
+Slower: A lot slower to train as they often have far more parameters to train.
+Overfitting: More of a risk to overfit the training data and it is harder to explain why specific predictions are made.
+
 
 ## Common Machine Learning Algorithms
 

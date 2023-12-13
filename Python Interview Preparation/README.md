@@ -142,7 +142,7 @@ An expression can also be a statement if it stands alone as a complete line of c
 
 
 
-more examples in the file basics_0.py  
+more examples in the file code/basics_0.py  
 
 </details>
 
