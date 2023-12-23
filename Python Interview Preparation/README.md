@@ -86,7 +86,6 @@ Values in a dictionary can be of any data type, including numbers, strings, list
 An _expression_ is any part of the code that evaluates to a value. It can be a combination of variables, operators, and function calls. 
 An expression can also be a statement if it stands alone as a complete line of code. In some languages, expressions and statements are distinct, but in Python, many expressions can be used as statements.
 
-### Difference between an array and list
 
 ### Difference between an array and list
 
@@ -113,6 +112,7 @@ An expression can also be a statement if it stands alone as a complete line of c
    - **Array:** Core arrays are mutable; NumPy arrays can be mutable or immutable.
 
 In summary, lists offer flexibility, while arrays are more specialized for certain tasks, especially in scientific computing.
+
 
 #### Data Types
 
@@ -183,7 +183,11 @@ When an object is created in Python, it is assigned a _type_ and an _id_. <ins> 
 
 ### What is the difference between list and tuples in Python?
 
-**Answer:**:
+**Answer:**
+**Mutability** list is mutable and tuple is immutable. 
+**Syntax definition**,
+**Performance** List: Slower due to mutability and Tuple: Faster due to immutability
+**Memory Consumption** List: Consumes more memory and  Tuple: More memory-efficient
 
 ### How is memory managed in Python?
 
