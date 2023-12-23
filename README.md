@@ -5,5 +5,5 @@ Dive into Python-based resources and code examples for mastering ML interview ch
 From algorithms to computer vision-based questions, this repository guides Ph.D. graduates through Pythonic strategies for interview excellence.
 
 <p align="left">
-<img width="800" src="_other/img_cover.jpeg">
+<img width="800" src="src/img_cover.jpeg">
 </p>
