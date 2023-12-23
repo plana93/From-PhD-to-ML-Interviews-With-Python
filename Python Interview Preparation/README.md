@@ -114,7 +114,6 @@ An expression can also be a statement if it stands alone as a complete line of c
 
 In summary, lists offer flexibility, while arrays are more specialized for certain tasks, especially in scientific computing.
 
-
 #### Data Types
 
 - Understanding and working with various data types:
