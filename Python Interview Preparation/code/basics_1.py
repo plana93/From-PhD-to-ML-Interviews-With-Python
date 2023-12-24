@@ -106,6 +106,17 @@ print()
 ############################################################
 ############################################################
 
+# Meta class Example
+
+class MetaExample(type):
+    def __init__(cls, name, bases, dct):
+        # Customization logic goes here
+        super(MetaExample, cls).__init__(name, bases, dct)
+
+# Usage
+class MyClass(metaclass=MetaExample):
+    attribute = "Example Attribute"
+
 
 
 print()

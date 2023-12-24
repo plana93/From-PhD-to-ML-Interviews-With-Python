@@ -255,7 +255,7 @@ It is often used when exactly one object is needed for coordination or to contro
 
 **Answer:**: Meta-classes in Python are classes that define the behavior of other classes, 
 commonly known as class factories. They allow customization and modification of class creation, 
-often used to enforce coding standards or add specific behaviors to classes.
+often used to enforce coding standards or add specific behaviors to classes (see example on basics_1.py).
 
 Explain Abstract Classes and its uses.
 Explain object creation process in detail. Which method is called first?
