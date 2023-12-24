@@ -234,10 +234,29 @@ Difference between a class variable and instance variable. (parte legata ai Scop
 <details>
 <summary><strong> Details </strong></summary>
 
-What is monkey patching? How to use it in Python?
-What is the difference between staticmethod and classmethod?
-Explain Singleton class and its uses?
-Explain Meta Classes in Python. 
+### What is monkey patching? How to use it in Python?
+
+**Answer:**: Monkey patching refers to dynamically modifying or extending a module or class at runtime, 
+typically to alter behavior or add features (see example on basics_1.py).
+
+
+### What is the difference between staticmethod and classmethod?
+
+**Answer:**: The key difference lies in how they are bound to the class. `staticmethod` is bound to the class and takes no special first argument, 
+while `classmethod` is bound to the class and takes the class as its first argument (see example on basics_1.py).
+
+
+### Explain Singleton class and its uses?
+
+**Answer:**: A Singleton class ensures that only one instance of the class is created and provides a global point of access to that instance. 
+It is often used when exactly one object is needed for coordination or to control actions (see example on basics_1.py).
+
+### Explain Meta Classes in Python. 
+
+**Answer:**: Meta-classes in Python are classes that define the behavior of other classes, 
+commonly known as class factories. They allow customization and modification of class creation, 
+often used to enforce coding standards or add specific behaviors to classes.
+
 Explain Abstract Classes and its uses.
 Explain object creation process in detail. Which method is called first?
 Explain inheritance in Python / What is MRO in Python? How does it work?
