@@ -108,16 +108,32 @@ print()
 
 # Meta class Example
 
-class MetaExample(type):
-    def __init__(cls, name, bases, dct):
-        # Customization logic goes here
-        super(MetaExample, cls).__init__(name, bases, dct)
+# Meta-class for enforcing attribute naming convention
+class AttributeNamingMeta(type):
+    def __new__(cls, name, bases, dct):
+        # Enforce the naming convention for attributes
+        print(name)
+        print(bases)
+        print(dct)
+        for attribute_name, value in dct.items():
+            if not attribute_name.startswith("custom_"):
+                new_attribute_name = "custom_" + attribute_name
+                dct[new_attribute_name] = dct.pop(attribute_name)
+
+        # Create the class
+        return super().__new__(cls, name, bases, dct)
+
 
 # Usage
-class MyClass(metaclass=MetaExample):
-    attribute = "Example Attribute"
+class CustomAttributesClass(metaclass=AttributeNamingMeta):
+    custom_name = "John"
+    custom_age = 30
+    otherName = "Mark" # RuntimeError: dictionary keys changed during iteration
 
 
+# Accessing attributes
+print(CustomAttributesClass.custom_name)  # Output: John
+print(CustomAttributesClass.custom_age)  # Output: 30
 
 print()
 print("############################################################")
@@ -125,5 +141,33 @@ print()
 ############################################################
 ############################################################
 
+# abstract class Example
+
+from abc import ABC, abstractmethod
+
+class AbstractShape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+    @abstractmethod
+    def perimeter(self):
+        pass
+
+# Usage
+class ConcreteCircle(AbstractShape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius**2
+
+    def perimeter(self):
+        return 2 * 3.14 * self.radius
 
 
+print()
+print("############################################################")
+print()
+############################################################
+############################################################

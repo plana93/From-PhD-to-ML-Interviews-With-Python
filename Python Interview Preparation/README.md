@@ -257,7 +257,12 @@ It is often used when exactly one object is needed for coordination or to contro
 commonly known as class factories. They allow customization and modification of class creation, 
 often used to enforce coding standards or add specific behaviors to classes (see example on basics_1.py).
 
-Explain Abstract Classes and its uses.
+### Explain Abstract Classes and its uses.
+**Answer:**: Abstract classes in Python are classes that cannot be instantiated and typically include abstract methods 
+that must be implemented by their subclasses. 
+They serve as a blueprint for other classes and ensure that certain methods are implemented by concrete classes (see example on basics_1.py).
+
+
 Explain object creation process in detail. Which method is called first?
 Explain inheritance in Python / What is MRO in Python? How does it work?
 
