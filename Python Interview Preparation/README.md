@@ -128,7 +128,6 @@ In summary, lists offer flexibility, while arrays are more specialized for certa
 
 #### Operators
 
-
 - Utilizing operators for arithmetic, comparison, logical operations:
   ```python
   # Example
@@ -161,9 +160,6 @@ In summary, lists offer flexibility, while arrays are more specialized for certa
   for i in range(5):
       print(i)
   ```
-  
-
-
 
 more examples in the file code/basics_0.py  
 
@@ -223,10 +219,20 @@ If not, it compiles the .py file into .pyc.
 <details>
 <summary><strong> Details </strong></summary>
 
-Explain briefly about map() and lambda() functions. 
-Difference between a class variable and instance variable. (parte legata ai Scope)
+### Explain briefly about lambda() and map() functions. 
 
-- Defining functions, parameters, return values
+**Answer:**: <ins>Lambda()</ins> function mainly used to create a function without a name, 
+it can receive any number of arguments, but can only have one expression.
+
+<ins>Map()</ins> function takes a function and a list as input. 
+Map() performs an operation on the entire list and return the result in a new list
+(see example on basics_1.py).
+
+### Difference between a class variable and instance variable.
+
+**Answer:**: In Python, class variables are shared among all instances of a class and have a global scope within the class.
+Instance variables, declared with "self" inside methods or the constructor, 
+are specific to each instance and have a local scope within that instance (see example on basics_1.py).
 
 </details>
 
@@ -258,14 +264,22 @@ commonly known as class factories. They allow customization and modification of 
 often used to enforce coding standards or add specific behaviors to classes (see example on basics_1.py).
 
 ### Explain Abstract Classes and its uses.
+
 **Answer:**: Abstract classes in Python are classes that cannot be instantiated and typically include abstract methods 
 that must be implemented by their subclasses. 
 They serve as a blueprint for other classes and ensure that certain methods are implemented by concrete classes (see example on basics_1.py).
 
 
-Explain object creation process in detail. Which method is called first?
+# Explain object creation process in detail. Which method is called first?
+
+**Answer:**: During object creation in Python, the class is defined with its attributes and methods. 
+Memory is allocated for the object. Optionally, the __new__ method is called to create and return the object. 
+Subsequently, the __init__ method is invoked to initialize the object's attributes.
+
+
 Explain inheritance in Python / What is MRO in Python? How does it work?
 
+<ins>Inheritance</ins> is a fundamental concept in object-oriented programming (OOP) that allows a class (subclass or derived class) to inherit attributes and methods from another class (base class or parent class). This promotes code reuse and the creation of a hierarchy of classes.
 
 - Classes, objects, inheritance, encapsulation
 
