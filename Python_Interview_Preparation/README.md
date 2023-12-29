@@ -22,13 +22,13 @@ Welcome to my Python interview preparation repository! This space is dedicated t
 <details>
 <summary><strong> Details </strong></summary>
 
-### What is Python, and how is it different from other programming languages :grey_question:
+### What is Python, and how is it different from other programming languages
 
-:point_right: **Answer:** Python is a high-level, interpreted programming language known for its <ins>readability</ins> and <ins>simplicity</ins>. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. <ins>Python supports multiple programming paradigms, including procedural, object-oriented, and [functional programming](https://en.wikipedia.org/wiki/Functional_programming).</ins>
+:white_check_mark: **Answer:** Python is a high-level, interpreted programming language known for its <ins>readability</ins> and <ins>simplicity</ins>. It emphasizes code readability and allows programmers to express concepts in fewer lines of code than might be possible in languages such as C++ or Java. <ins>Python supports multiple programming paradigms, including procedural, object-oriented, and [functional programming](https://en.wikipedia.org/wiki/Functional_programming).</ins>
 
 ### Explain the differences between Python 2 and Python 3.
 
-**Answer:** Python 2 and Python 3 are two major versions of the Python programming language. Python 3 was introduced as an upgrade to Python 2 with some significant changes to improve consistency and eliminate redundancy. Key differences include changes to print syntax (print is a function in Python 3), Unicode support, integer division, and various library updates. Python 2 reached its end of life on January 1, 2020, and developers are encouraged to use Python 3 for all new projects.
+**:white_check_mark:** **Answer:** Python 2 and Python 3 are two major versions of the Python programming language. Python 3 was introduced as an upgrade to Python 2 with some significant changes to improve consistency and eliminate redundancy. Key differences include changes to print syntax (print is a function in Python 3), Unicode support, integer division, and various library updates. Python 2 reached its end of life on January 1, 2020, and developers are encouraged to use Python 3 for all new projects.
 
 ### What are the main features of Python?
 
