@@ -444,6 +444,7 @@ as it allows parallel execution on multiple cores (see example on concurrency.py
 <details>
 <summary><strong> Details </strong></summary>
 
+
 **NumPy:** Essential for numerical operations in Python, NumPy provides efficient arrays and mathematical functions, forming the foundation for scientific computing and data analysis.
 
 **Pandas:** A powerful data manipulation and analysis library, Pandas simplifies working with structured data through its DataFrame object, making tasks like cleaning, exploring, and transforming data intuitive and efficient.
@@ -470,7 +471,7 @@ as it allows parallel execution on multiple cores (see example on concurrency.py
 <details>
 <summary><strong> Details </strong></summary>
 
-**Time Complexity**:
+:white_check_mark: **Time Complexity**:
 Time complexity measures the amount of time an algorithm takes to complete based on the input size. It's expressed using Big O notation. Common time complexities:
 
 **O(1) - Constant Time:** Operations take the same time regardless of the input size, like accessing an element in an array.
@@ -485,7 +486,7 @@ Time complexity measures the amount of time an algorithm takes to complete based
 
 **O(2^n) - Exponential Time:** Typically seen in recursive algorithms where each step doubles the amount of work.
 
-**Space Complexity:**
+:white_check_mark: **Space Complexity:**
 Space complexity measures the amount of memory an algorithm uses relative to the input size. It's also expressed using Big O notation.
 
 **O(1) - Constant Space:** The algorithm uses a fixed amount of memory, irrespective of the input size.
@@ -504,7 +505,7 @@ Understanding time and space complexity helps in choosing the right algorithms f
 <details>
 <summary><strong> Details </strong></summary>
 
-Here are some popular platforms where you can practice coding challenges:
+:white_check_mark: Here are some popular platforms where you can practice coding challenges:
 
 - **[LeetCode](https://leetcode.com):** Offers a vast collection of coding challenges categorized by difficulty and topic. It's widely used for technical interview preparation.
 
