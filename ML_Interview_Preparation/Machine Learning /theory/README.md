@@ -48,11 +48,9 @@ Common techniques include clustering and dimensionality reduction.
 :white_check_mark: Reinforcement learning involves an agent learning to make decisions by interacting with an environment. 
 It receives feedback in the form of rewards or penalties.
 
-### Parametric vs Nonparametric 
+### Parametric vs Nonparametric
 
-:white_check_mark: **Answer:**
-
-**Parametric**: Assumptions can greatly simplify the learning process, but can also limit what can be learned. 
+:white_check_mark: **Parametric**: Assumptions can greatly simplify the learning process, but can also limit what can be learned. 
 A learning model that summarizes data with a set of parameters of fixed size (independent of the number of 
 training examples) is called a parametric model. **examples Parametric**: Logistic Regression, Perceptron
 **Benefits of Parametric** Machine Learning Algorithms:
@@ -64,7 +62,7 @@ training examples) is called a parametric model. **examples Parametric**: Logist
 <ins>Limited Complexity:</ins> The methods are more suited to simpler problems.
 <ins>Poor Fit:</ins> In practice the methods are unlikely to match the underlying mapping function.
 
-**Nonparametric**: Algorithms that do not make strong assumptions about the form of the mapping 
+:white_check_mark: **Nonparametric**: Algorithms that do not make strong assumptions about the form of the mapping 
 function are called nonparametric machine learning algorithms. 
 By not making assumptions, they are free to learn any functional form from the training data.
 **examples Nonparametric**: k-Nearest Neighbors
@@ -80,7 +78,7 @@ By not making assumptions, they are free to learn any functional form from the t
 
 ## Common Machine Learning Algorithms
 
-### Linear Regression 
+### :white_check_mark: Linear Regression 
 
 **Description:** Linear regression models the relationship between a dependent variable (output) and one or more independent variables (input) by fitting a linear equation (_y=mx+b_) to the observed data.
 
