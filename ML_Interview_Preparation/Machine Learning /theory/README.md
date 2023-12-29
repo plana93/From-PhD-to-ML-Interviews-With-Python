@@ -78,23 +78,23 @@ By not making assumptions, they are free to learn any functional form from the t
 
 ## Common Machine Learning Algorithms
 
-### :white_check_mark: Linear Regression 
+###  Linear Regression 
 
-**Description:** Linear regression models the relationship between a dependent variable (output) and one or more independent variables (input) by fitting a linear equation (_y=mx+b_) to the observed data.
+:books: **Description:** Linear regression models the relationship between a dependent variable (output) and one or more independent variables (input) by fitting a linear equation (_y=mx+b_) to the observed data.
 
-**How:** The solution is found by minimizing the sum of squared residuals (SSR) using methods like ordinary least squares.
+:diamond_shape_with_a_dot_inside: **How:** The solution is found by minimizing the sum of squared residuals (SSR) using methods like ordinary least squares.
 
-**When to Use:** Suitable for predicting a continuous outcome.
+:white_check_mark:**When to Use:** Suitable for predicting a continuous outcome.
 
-**When Not to Use:** In cases where the relationship between variables is nonlinear, noise data, outliers. It prones to overfitting. Sometimes need extra time for pre-processing or feature engineering. 
+:x: **When Not to Use:** In cases where the relationship between variables is nonlinear, noise data, outliers. It prones to overfitting. Sometimes need extra time for pre-processing or feature engineering. 
 
-**Pros and Cons:**
-- *Pros:* Simple, interpretable, handles linear data very well.
-- *Cons:* Assumes a linear relationship.
+:pushpin: **Pros and Cons:**
+- :green_circle: *Pros:* Simple, interpretable, handles linear data very well.
+- :red_circle: *Cons:* Assumes a linear relationship.
 
-**Example:** Predicting house prices based on square footage.
+:writing_hand: **Example:** Predicting house prices based on square footage.
 
-**Connected Argument:** Feature engineering to capture non-linear relationships.
+:link: **Connected Argument:** Feature engineering to capture non-linear relationships.
 
 
 ### Logistic Regression
