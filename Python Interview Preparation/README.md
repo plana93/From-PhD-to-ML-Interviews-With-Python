@@ -427,12 +427,12 @@ Other Python implementations like PyPy try to overcome this limitation with diff
 
 ### Explain the difference between Multithreading vs. Multiprocessing.
 
-**Answer:**  <ins>Multithreading/ins involves the concurrent execution of multiple threads within the same process.
+**Answer:**  <ins>Multithreading</ins> involves the concurrent execution of multiple threads within the same process.
 Threads **share the same memory space**, allowing them to communicate more easily.
 <ins>Use Cases:</ins> Multithreading is suitable for I/O-bound tasks where threads spend time waiting for 
 external operations (e.g., reading or writing to files, network operations).
 
-<ins>Multiprocessing/ins involves the concurrent execution of multiple processes, each with its own memory space.
+<ins>Multiprocessing</ins> involves the concurrent execution of multiple processes, each with its own memory space.
 Processes run independently and do **not share memory space** by default (communication more challenging).
 The GIL is not present in multiprocessing, allowing true parallelism in CPU-bound tasks.
 <ins>Use Cases:</ins> Multiprocessing is suitable for CPU-bound tasks that require significant computation, 
