@@ -379,10 +379,28 @@ Iterators may require more memory as they need to store the entire state explici
 <details>
 <summary><strong> Details </strong></summary>
 
-Explain Closures in Python
-How to make a chain of function decorators?
+### Explain a Decorator in Python. 
+**Answer:** A decorator in Python is a design pattern that allows you to extend or modify the behavior 
+of functions or methods without modifying their actual code.
+A decorator is a function that takes another function as an argument and extends the behavior of the latter function.
+Python has several built-in decorators, such as @property, @staticmethod, and @classmethod, 
+which are used for specific purposes in classes (see example on decorators.py).
 
-- Defining and using decorators
+
+### Explain Closures in Python.
+
+**Answer:** The closures in Python provide a powerful way to create functions with persistent state and encapsulation, 
+enhancing modularity and supporting advanced programming patterns.
+Closures involve nested functions, 
+where one function (the inner function) is defined inside another function (the outer function). 
+The inner function has access to the variables of the outer function, even after the outer function has finished execution.
+
+### How to make a chain of function decorators?
+
+**Answer:** To create a chain of function decorators in Python, you can apply multiple decorators to a single function
+by stacking them using the @decorator syntax. Decorators are applied in the order they appear, from bottom to top. 
+Each decorator modifies the behavior of the function sequentially (see example on decorators.py).
+
 
 </details>
 
@@ -390,10 +408,35 @@ How to make a chain of function decorators?
 <details>
 <summary><strong> Details </strong></summary>
 
-What is a global interpreter lock (GIL)?
-Explain threading in Python
+### Explain threading in Python. 
 
-- Threading vs. multiprocessing, GIL
+**Answer:** Threading in Python refers to the concurrent execution of threads, which are smaller units of a process 
+that shares the same memory space with other threads in a process.
+Threads allow a program to execute multiple operations concurrently, making it useful for tasks that can be performed 
+independently. Python provides a `threading` module to work with threads.
+The threading module in Python provides a high-level interface for creating and managing threads (see example on concurrency.py).
+
+### What is a global interpreter lock (GIL)?
+
+**Answer:** The Global Interpreter Lock (GIL) in CPython ensures that only one thread can run Python code at a time in a process. 
+This affects the performance of multithreading, especially in tasks that use a lot of CPU. 
+The GIL simplifies memory management but can limit performance. 
+For CPU-heavy tasks, using the multiprocessing module is often better than using threads because of the GIL. 
+While the GIL simplifies memory management, it can hinder true parallelism. 
+Other Python implementations like PyPy try to overcome this limitation with different concurrency strategies.
+
+### Explain the difference between Multithreading vs. Multiprocessing.
+
+**Answer:**  <ins>Multithreading/ins involves the concurrent execution of multiple threads within the same process.
+Threads **share the same memory space**, allowing them to communicate more easily.
+<ins>Use Cases:</ins> Multithreading is suitable for I/O-bound tasks where threads spend time waiting for 
+external operations (e.g., reading or writing to files, network operations).
+
+<ins>Multiprocessing/ins involves the concurrent execution of multiple processes, each with its own memory space.
+Processes run independently and do **not share memory space** by default (communication more challenging).
+The GIL is not present in multiprocessing, allowing true parallelism in CPU-bound tasks.
+<ins>Use Cases:</ins> Multiprocessing is suitable for CPU-bound tasks that require significant computation, 
+as it allows parallel execution on multiple cores (see example on concurrency.py).
 
 </details>
 
@@ -401,7 +444,25 @@ Explain threading in Python
 <details>
 <summary><strong> Details </strong></summary>
 
-- Requests, NumPy, Pandas, Flask/Django
+**NumPy:** Essential for numerical operations in Python, NumPy provides efficient arrays and mathematical functions, forming the foundation for scientific computing and data analysis.
+
+**Pandas:** A powerful data manipulation and analysis library, Pandas simplifies working with structured data through its DataFrame object, making tasks like cleaning, exploring, and transforming data intuitive and efficient.
+
+**Matplotlib:** As a versatile plotting library, Matplotlib enables the creation of high-quality visualizations, including line plots, scatter plots, histograms, and more, aiding in the interpretation and communication of data patterns.
+
+**Scikit-learn:** A user-friendly machine learning library, Scikit-learn offers tools for classification, regression, clustering, and more, making it accessible for both beginners and experts in the field.
+
+**Django:** A high-level web framework, Django simplifies web development by providing an organized structure, an ORM for database interactions, and built-in features like authentication, making it ideal for building robust and scalable web applications.
+
+**Flask:** Known for its simplicity, Flask is a lightweight web framework that facilitates rapid development of web applications with minimal boilerplate code, making it suitable for small to medium-sized projects.
+
+**TensorFlow:** Google's open-source machine learning library, TensorFlow supports the development of deep learning models, providing a comprehensive ecosystem for building and deploying machine learning applications.
+
+**PyTorch:** Widely used for deep learning, PyTorch offers dynamic computational graphs and a flexible framework, making it popular among researchers and practitioners for tasks such as image recognition and natural language processing.
+
+**Beautiful Soup:** A web scraping library, Beautiful Soup simplifies the extraction of data from HTML and XML files, providing a Pythonic way to navigate and search the parsed content of web pages.
+
+**Requests:** A straightforward HTTP library, Requests simplifies making HTTP requests in Python, allowing for easy interaction with web APIs and retrieval of data from the internet.
 
 </details>
 
@@ -409,7 +470,33 @@ Explain threading in Python
 <details>
 <summary><strong> Details </strong></summary>
 
-- Big O notation, algorithm efficiency
+**Time Complexity**:
+Time complexity measures the amount of time an algorithm takes to complete based on the input size. It's expressed using Big O notation. Common time complexities:
+
+**O(1) - Constant Time:** Operations take the same time regardless of the input size, like accessing an element in an array.
+
+**O(log n) - Logarithmic Time:** Often seen in binary search, where the algorithm halves the input size in each step.
+
+**O(n) - Linear Time:** The running time grows linearly with the input size, like iterating through a list.
+
+**O(n log n) - Linearithmic Time:** Common in efficient sorting algorithms like mergesort and heapsort.
+
+**O(n^2) - Quadratic Time:** Found in algorithms with nested iterations, like bubble sort.
+
+**O(2^n) - Exponential Time:** Typically seen in recursive algorithms where each step doubles the amount of work.
+
+**Space Complexity:**
+Space complexity measures the amount of memory an algorithm uses relative to the input size. It's also expressed using Big O notation.
+
+**O(1) - Constant Space:** The algorithm uses a fixed amount of memory, irrespective of the input size.
+
+**O(n) - Linear Space:** The space required grows linearly with the input size.
+
+**O(n^2) - Quadratic Space:** The space required grows with the square of the input size.
+
+**O(log n) - Logarithmic Space:** Space grows logarithmically with the input size.
+
+Understanding time and space complexity helps in choosing the right algorithms for different scenarios, balancing efficiency and resource usage.
 
 </details>
 
@@ -417,7 +504,27 @@ Explain threading in Python
 <details>
 <summary><strong> Details </strong></summary>
 
-- Practice on platforms like LeetCode, HackerRank
+Here are some popular platforms where you can practice coding challenges:
+
+[LeetCode](leetcode.com): Offers a vast collection of coding challenges categorized by difficulty and topic. It's widely used for technical interview preparation.
+
+[HackerRank](hackerrank.com): Provides a variety of challenges in domains like algorithms, data structures, artificial intelligence, databases, and more. It's known for its structured learning paths.
+
+[CodeSignal](codesignal.com): Focuses on preparing for coding interviews with a wide range of challenges. It also offers interview practice with real companies.
+
+[Codewars](codewars.com): A platform where users can train on coding challenges known as "kata" in a variety of programming languages.
+
+[Exercism](exercism.io): Offers coding exercises to practice various programming languages. It emphasizes mentorship, allowing users to get feedback on their solutions.
+
+[TopCoder](topcoder.com): Known for competitive programming challenges, TopCoder covers algorithmic and mathematical problems.
+
+[GeeksforGeeks](geeksforgeeks.org): Focuses on computer science topics and includes a wide range of coding challenges related to algorithms, data structures, and interview preparation.
+
+[InterviewBit](interviewbit.com): Designed specifically for interview preparation, it provides challenges based on real interview questions from top tech companies.
+
+[Project Euler](projecteuler.net): Features mathematical and computational problems designed to be solved with computer programs. It's great for honing both math and programming skills.
+
+[Google Code Jam](codingcompetitions.withgoogle.com/codejam): Google's coding competition platform, which hosts annual coding contests with challenging algorithmic problems.
 
 </details>
 
