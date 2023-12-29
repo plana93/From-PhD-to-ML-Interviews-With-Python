@@ -527,9 +527,7 @@ Understanding time and space complexity helps in choosing the right algorithms f
 
 - **[Google Code Jam](https://codingcompetitions.withgoogle.com/codejam):** Google's coding competition platform, which hosts annual coding contests with challenging algorithmic problems.
 
+Feel free to use this repository to track your progress and make updates as you continue your preparation. Happy coding!
+
 </details>
 
-
-
-
-Feel free to use this repository to track your progress and make updates as you continue your preparation. Happy coding!

@@ -7,3 +7,7 @@ From algorithms to computer vision-based questions, this repository guides Ph.D.
 <p align="left">
 <img width="800" src="src/img_cover.jpeg">
 </p>
+
+# todo:
+- add algoritmi di sorting nella parte legata a python 
+- add folder test_yourself solo lista infinita di domande 
