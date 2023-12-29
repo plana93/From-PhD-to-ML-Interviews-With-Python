@@ -506,25 +506,25 @@ Understanding time and space complexity helps in choosing the right algorithms f
 
 Here are some popular platforms where you can practice coding challenges:
 
-[LeetCode](leetcode.com): Offers a vast collection of coding challenges categorized by difficulty and topic. It's widely used for technical interview preparation.
+- **[LeetCode](https://leetcode.com):** Offers a vast collection of coding challenges categorized by difficulty and topic. It's widely used for technical interview preparation.
 
-[HackerRank](hackerrank.com): Provides a variety of challenges in domains like algorithms, data structures, artificial intelligence, databases, and more. It's known for its structured learning paths.
+- **[HackerRank](https://hackerrank.com):** Provides a variety of challenges in domains like algorithms, data structures, artificial intelligence, databases, and more. It's known for its structured learning paths.
 
-[CodeSignal](codesignal.com): Focuses on preparing for coding interviews with a wide range of challenges. It also offers interview practice with real companies.
+- **[CodeSignal](https://codesignal.com):** Focuses on preparing for coding interviews with a wide range of challenges. It also offers interview practice with real companies.
 
-[Codewars](codewars.com): A platform where users can train on coding challenges known as "kata" in a variety of programming languages.
+- **[Codewars](https://codewars.com):** A platform where users can train on coding challenges known as "kata" in a variety of programming languages.
 
-[Exercism](exercism.io): Offers coding exercises to practice various programming languages. It emphasizes mentorship, allowing users to get feedback on their solutions.
+- **[Exercism](https://exercism.io):** Offers coding exercises to practice various programming languages. It emphasizes mentorship, allowing users to get feedback on their solutions.
 
-[TopCoder](topcoder.com): Known for competitive programming challenges, TopCoder covers algorithmic and mathematical problems.
+- **[TopCoder](https://topcoder.com):** Known for competitive programming challenges, TopCoder covers algorithmic and mathematical problems.
 
-[GeeksforGeeks](geeksforgeeks.org): Focuses on computer science topics and includes a wide range of coding challenges related to algorithms, data structures, and interview preparation.
+- **[GeeksforGeeks](https://geeksforgeeks.org):** Focuses on computer science topics and includes a wide range of coding challenges related to algorithms, data structures, and interview preparation.
 
-[InterviewBit](interviewbit.com): Designed specifically for interview preparation, it provides challenges based on real interview questions from top tech companies.
+- **[InterviewBit](https://interviewbit.com):** Designed specifically for interview preparation, it provides challenges based on real interview questions from top tech companies.
 
-[Project Euler](projecteuler.net): Features mathematical and computational problems designed to be solved with computer programs. It's great for honing both math and programming skills.
+- **[Project Euler](https://projecteuler.net):** Features mathematical and computational problems designed to be solved with computer programs. It's great for honing both math and programming skills.
 
-[Google Code Jam](codingcompetitions.withgoogle.com/codejam): Google's coding competition platform, which hosts annual coding contests with challenging algorithmic problems.
+- **[Google Code Jam](https://codingcompetitions.withgoogle.com/codejam):** Google's coding competition platform, which hosts annual coding contests with challenging algorithmic problems.
 
 </details>
 
