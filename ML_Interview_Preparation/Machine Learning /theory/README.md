@@ -51,14 +51,15 @@ It receives feedback in the form of rewards or penalties.
 ### Parametric vs Nonparametric 
 
 :white_check_mark: **Answer:**
+
 **Parametric**: Assumptions can greatly simplify the learning process, but can also limit what can be learned. 
 A learning model that summarizes data with a set of parameters of fixed size (independent of the number of 
 training examples) is called a parametric model. **examples Parametric**: Logistic Regression, Perceptron
-Benefits of **Parametric** Machine Learning Algorithms:
+**Benefits of Parametric** Machine Learning Algorithms:
 <ins>Simpler:</ins> These methods are easier to understand and interpret results.
 <ins>Speed:</ins> Parametric models are very fast to learn from data.
 <ins>Less Data:</ins> They do not require as much training data and can work well even if the fit to the data is not perfect.
-Limitations of **Parametric** Machine Learning Algorithms:
+**Limitations of Parametric** Machine Learning Algorithms:
 <ins>Constrained:</ins> By choosing a functional form these methods are highly constrained to the specified form.
 <ins>Limited Complexity:</ins> The methods are more suited to simpler problems.
 <ins>Poor Fit:</ins> In practice the methods are unlikely to match the underlying mapping function.
@@ -67,11 +68,11 @@ Limitations of **Parametric** Machine Learning Algorithms:
 function are called nonparametric machine learning algorithms. 
 By not making assumptions, they are free to learn any functional form from the training data.
 **examples Nonparametric**: k-Nearest Neighbors
-Benefits of **Nonparametric** Machine Learning Algorithms:
+**Benefits of Nonparametric** Machine Learning Algorithms:
 <ins>Flexibility:</ins> Capable of fitting a large number of functional forms.
 <ins>Power:</ins> No assumptions (or weak assumptions) about the underlying function.
 <ins>Performance:</ins> Can result in higher performance models for prediction.
-Limitations of **Nonparametric** Machine Learning Algorithms:
+**Limitations of Nonparametric** Machine Learning Algorithms:
 <ins>More data:</ins> Require a lot more training data to estimate the mapping function.
 <ins>Slower:</ins> A lot slower to train as they often have far more parameters to train.
 <ins>Overfitting:</ins> More of a risk to overfit the training data and it is harder to explain why specific predictions are made.
