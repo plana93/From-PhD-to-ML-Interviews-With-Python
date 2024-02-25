@@ -1,13 +1,12 @@
-# From-PhD-to-ML-Interviews-With-Python
-## Prepare for success in Machine Learning (ML) interviews after completing your Ph.D. 
-
-Dive into Python-based resources and code examples for mastering ML interview challenges. 
-From algorithms to computer vision-based questions, this repository guides Ph.D. graduates through Pythonic strategies for interview excellence.
+# Machine Learning (ML) Interview Preparation.
+Dive into Python-based resources and code examples to master ML interview challenges.
+From algorithms to computer vision-based questions, this repository guides you through comprehensive preparation for interview excellence.
 
 <p align="left">
 <img width="800" src="src/img_cover.jpeg">
 </p>
 
-# todo:
-- add algoritmi di sorting nella parte legata a python 
-- add folder test_yourself solo lista infinita di domande 
+## Todo:
+- [ ] complete the section for deep learning
+- [ ] add sorting algorithm in the python section
+- [ ] add test_yourself branch that containg only questions
